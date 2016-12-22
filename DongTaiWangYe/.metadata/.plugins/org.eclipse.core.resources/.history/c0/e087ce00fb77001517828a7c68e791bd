@@ -1,0 +1,16 @@
+package Emp;
+
+import java.util.HashMap;
+import java.util.Iterator;
+
+public class Hash {
+
+public Hash(){
+
+public static void main(String args[])
+{
+	private HashMap<String, Iterator> goods=new HashMap<String, Iterator>();
+	
+}
+
+}

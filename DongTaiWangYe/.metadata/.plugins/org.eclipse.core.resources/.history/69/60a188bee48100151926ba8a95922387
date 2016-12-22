@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<div id="test">
+
+<p id="x1">HTML</p>
+<p>JavaScript</p>
+
+</div>
+
+</body>
+</html>

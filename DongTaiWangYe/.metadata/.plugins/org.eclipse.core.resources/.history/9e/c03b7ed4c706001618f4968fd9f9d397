@@ -1,0 +1,6 @@
+package com.ioc.interfaces;
+
+public interface OneInterface 
+{
+	public void hello(String str);//public abstract static
+}

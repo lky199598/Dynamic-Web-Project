@@ -1,0 +1,13 @@
+package dao;
+
+import org.apache.ibatis.jdbc.SQL;
+import org.apache.ibatis.session.SqlSession;
+
+import db.DBAccess;
+
+public class MessageDao_1 {
+DBAccess dbAccess = new DBAccess();
+SqlSession sqlSession = null;
+
+sqlSess = db
+}

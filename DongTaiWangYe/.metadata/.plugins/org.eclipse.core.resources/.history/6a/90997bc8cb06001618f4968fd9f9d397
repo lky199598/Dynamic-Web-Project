@@ -1,0 +1,58 @@
+package com.ioc.base;
+
+import org.junit.After;
+import org.junit.Before;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.util.StringUtils;
+
+public class UnitTestBase 
+{   
+	//BeanFactory提供配置结构和基本功能，加载并初始化
+	//ApplicationContext保存了Bean对象,并在spring中被广泛使用
+	
+
+	//获得Spring中定义的Bean实例(对象)
+	private ClassPathXmlApplicationContext context;
+    
+	private String springXmlpath;
+	
+	public UnitTestBase()
+	{
+		
+	}
+	
+	public UnitTestBase(String springXmlpath)
+	{
+		this.springXmlpath = springXmlpath;
+	}
+	
+	@Before
+	public void before()
+	{
+		if(StringUtils.isEmpty(springXmlpath))
+		{
+			springXmlpath = "classpath*:spring-*.xml";
+			
+		}
+		//  \\s表示   空格,回车,换行等空白符
+		context  = new ClassPathXmlApplicationContext(springXmlpath.split("[,\\s]"));
+		context.start();
+	}	
+	
+	@After
+	public void after()
+	{
+		context.destroy();
+	}
+	
+	protected<T extends Object> T getBean(String beanId)
+	{
+		return (T)context.getBean(beanId);
+	}
+	
+	protected <T extends Object> T getBean(Class<T> clazz) 
+	{
+		return context.getBean(clazz);
+	}
+	
+}

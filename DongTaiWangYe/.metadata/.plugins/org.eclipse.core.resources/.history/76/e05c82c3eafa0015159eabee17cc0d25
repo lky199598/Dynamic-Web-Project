@@ -1,0 +1,29 @@
+package InitClass;
+
+public class ToStringClass {
+    
+	private Test t  = new Test();
+	public String toString()
+	{
+		return "t= "+t;
+	}
+    
+	public static void main(String[] args) {
+		toStringClass 
+		System.out.println();
+	}
+}
+
+class Test {
+	private String s;
+
+	public Test() {
+		System.out.println("toStringClass()");
+		s = "Constructed";
+	}
+
+	public String toString() {
+		return s;
+	}
+
+}

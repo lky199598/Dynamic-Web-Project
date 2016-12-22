@@ -1,0 +1,15 @@
+package com.ioc.injection.service;
+
+import com.ioc.injection.dao.InjectionDAO;
+
+public class InjectionServiceImpl implements InjectionService{
+  private InjectionDAO iDao;
+  
+	
+	@Override
+public void save(String arg) {
+	  
+	  arg+=", "+hashCode();
+	  
+}
+}

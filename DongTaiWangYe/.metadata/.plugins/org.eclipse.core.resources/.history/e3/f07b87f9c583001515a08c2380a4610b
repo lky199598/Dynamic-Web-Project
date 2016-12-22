@@ -1,0 +1,22 @@
+package Emp;
+
+import java.util.Map;
+
+public class Hash_Map {
+	
+	private Map<String, Integer> M = new Hash_Map<String, Integer>();
+
+	public void AddElement(String str, int number)
+	{
+		if(M.containsKey(str))
+			M.put(str, M.get(str)+number);
+		else
+			M.put(str, number);
+	}
+	public static void main(String[] args)
+	{
+	
+	
+	}
+	
+}

@@ -1,0 +1,23 @@
+package FrameWork;
+
+import java.util.ArrayList;
+
+public class ArrayListClass {
+	public void add(ArrayList<String> list)
+	{
+		list.add("CCC");
+		for(String s:list)
+			System.out.print(s+"  ");
+		System.out.println("\n");
+	}
+	
+	public void remove(ArrayList<String> list)
+	{
+		
+	}
+	
+public static void main(String[] args) {
+	ArrayList<String> list = new ArrayList<String>();
+	
+}
+}

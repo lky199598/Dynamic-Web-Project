@@ -1,0 +1,40 @@
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    pageEncoding="utf-8"%>
+  <%@ page import="dao.Cart" %> 
+  <%@ page import="entity.Items" %> 
+    
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>购物车列表</title>
+</head>
+<body>
+<h1>我的购物车</h1>
+<a href="Show_All_information.jsp">商品列表</a>
+<hr>
+
+<table>
+<tr>
+<th>商品名称</th>
+<th>商品单价</th>
+<th>商品总价</th>
+<th>购买数量</th>
+<th>操作</th>
+</tr>
+
+<% 
+if(request.getSession().getAttribute("cart")!= null )
+{
+
+	Cart cart = (Cart)request.getSession().getAttribute("cart");
+	HashMap<Items, Integer> goods = cart.getGoods();
+%>
+
+
+
+</table>
+
+
+</body>
+</html>

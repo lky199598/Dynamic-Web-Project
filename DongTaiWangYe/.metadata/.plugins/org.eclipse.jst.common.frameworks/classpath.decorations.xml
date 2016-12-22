@@ -1,0 +1,7 @@
+<classpath>
+  <container id="FirstStruts2!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="F:/Dynamic web project/动态网页/FirstStruts2/WebContent/WEB-INF/lib/xwork-core-2.3.24.jar">
+      <source-attachment-path>F:/慕课网视频/Structs2入门/struts-2.3.28-src.zip</source-attachment-path>
+    </entry>
+  </container>
+</classpath>

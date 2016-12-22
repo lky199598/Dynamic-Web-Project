@@ -1,0 +1,25 @@
+class E{
+	private String  a="a";
+    public void visit(){ 
+   System.out.println(this.a);
+        System.out.println(this.getClass()); 
+    }
+}
+
+class F extends E{
+	
+   private int a=11;
+  // int b ;
+	void print()
+	{
+		System.out.println(a+" "+b+"\n");
+	}
+}
+
+
+public class ExtendsTest {
+   public static void main(String[] args) {
+	F f = new F();
+	f.print();
+}
+}

@@ -1,0 +1,24 @@
+package dao;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import entity.Items;
+
+public class Cart {
+
+	private static Map<Items, Integer> goods = new HashMap<Items, Integer>();
+	
+	public Cart()	{}
+		
+	public void AddInCart(Items item, int number)
+	{
+		if(goods.containsKey(item))
+			goods.put(item, goods.get(item)+number);
+		else
+			goods.put(item, number);
+		
+		TotalPrice();//重新计算购物车的总金额
+	}
+	
+}

@@ -1,0 +1,15 @@
+package Action;
+
+import com.opensymphony.xwork2.ActionSupport;
+
+import freemarker.template.utility.Execute;
+
+public class TimerAction extends ActionSupport{
+
+	@Override
+	public String execute() throws Exception {
+		// TODO Auto-generated method stub
+		return super.execute();
+	}
+
+}

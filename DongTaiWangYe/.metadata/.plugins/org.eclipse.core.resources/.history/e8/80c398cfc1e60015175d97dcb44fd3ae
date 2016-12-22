@@ -1,0 +1,14 @@
+package dao;
+
+import java.util.List;
+
+import JavaBean.Message;
+
+public interface IMessage {
+public List<Message> Select_Message_Information(Message m);
+
+/*
+ * 根据查询条件查询消息列表的条数
+ */
+public int count(Message message);
+}

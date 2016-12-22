@@ -1,0 +1,6 @@
+package com.ioc.injection.dao;
+
+public class TestInjection
+{
+
+}

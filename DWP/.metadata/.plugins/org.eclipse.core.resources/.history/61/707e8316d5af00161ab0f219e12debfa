@@ -1,0 +1,42 @@
+package com.zs.spring.demo1;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+import javax.annotation.Resource;
+
+import org.junit.runner.RunWith;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+
+
+//@RunWith(BlockJUnit4ClassRunner.class)
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration("classpath:applicationContext1.xml")
+
+public class TransactionTest {
+
+	@Resource(name="accountService")
+	private AccountService accountService;
+	
+	@Test
+	public void demo1(){
+		accountService.transfer("aaa", "bbb", 200d);
+	}
+	
+/*	public static void main(String[] args) {
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+			String url = "jdbc:mysql://localhost:3306/SpringTransaction?useUnicode=true&characterEncoding=utf-8";
+			Connection conn = DriverManager.getConnection(url, "root", "");
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		System.out.println("Success11111!");
+	}*/
+}

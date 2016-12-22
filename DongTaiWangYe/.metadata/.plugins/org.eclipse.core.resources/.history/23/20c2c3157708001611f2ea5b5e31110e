@@ -1,0 +1,29 @@
+package com;
+
+public class AAA {
+	public void f() {
+		System.out.println("s(): "+s());
+	}
+
+	public String s() {
+
+		return "AAA";
+	}
+
+}
+
+class BBB extends AAA{
+	public String s() {
+
+		return "BBB";
+	}
+	
+	public static void main(String[] args) {
+		BBB b = new BBB();
+		b.f();
+		
+		AAA a = new BBB();
+		a.f();
+	}
+}
+

@@ -1,0 +1,11 @@
+package Emp;
+
+import java.util.HashMap;
+import java.util.Iterator;
+
+public class Hash {
+
+private HashMap<String, Iterator> goods;
+
+
+}

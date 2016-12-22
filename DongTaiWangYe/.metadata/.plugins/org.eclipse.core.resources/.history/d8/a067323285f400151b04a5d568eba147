@@ -1,0 +1,10 @@
+package InitClass;
+
+public class VarargType {
+static void varCharacter(Character... args)
+{
+	for(Character c : args)
+		System.out.print(c+" ");
+	System.out.println();
+}
+}

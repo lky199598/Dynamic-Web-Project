@@ -1,0 +1,11 @@
+package DynamicProxy;
+
+
+
+public class SqlSession {
+
+	public <T> T getMapper(Class<T> type)
+	{
+		System.out.println("通过接口的Class从代理工厂Map取出对应的代理工厂");
+	}
+}

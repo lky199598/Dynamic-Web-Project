@@ -1,0 +1,12 @@
+package InitClass;
+
+public class NewVarArgs {
+
+	/*
+	 * 可变参数列表
+	 */
+	static void printArray(Object... args)
+	{
+		for(Object obj : args)
+	}
+}

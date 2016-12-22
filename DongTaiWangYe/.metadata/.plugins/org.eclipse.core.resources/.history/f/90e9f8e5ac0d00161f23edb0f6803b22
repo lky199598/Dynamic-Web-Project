@@ -1,0 +1,7 @@
+package com.beanannotation.injection.test;
+
+public interface InjectionService {
+	
+	public void save(String arg);
+	
+}

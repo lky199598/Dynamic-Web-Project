@@ -1,0 +1,20 @@
+package Emp;
+
+import java.util.HashMap;
+import java.util.Iterator;
+
+public class Hash {
+
+public static void main(String args[])
+{
+	HashMap<String, Integer> goods=new HashMap<String, Integer>();
+	goods.put("aaa", 1);
+	goods.put("bbb", 2);
+	for(int i=0; i<goods.size(); i++)
+	{
+		System.out.print(goods.get(i).intValue()+"\t");
+	}
+	
+}
+
+}

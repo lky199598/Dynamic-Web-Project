@@ -1,0 +1,44 @@
+package Service;
+
+/*
+ * 维护Message表相关的业务功能
+ */
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.apache.ibatis.session.SqlSession;
+
+import JavaBean.Command;
+import JavaBean.Message;
+import Util.Iconst;
+import dao.JDBC_reflect;
+import dao.MessageDao_1;
+import db.DBAccess;
+
+public class CommandService {
+
+	public String Query_By_Command(String command)
+	{
+		List<Message> list;
+		CommandDao c = new CommandDao();
+		if(Iconst.Help_Command.equals(command))
+		{
+			list = c.Select_Information_From_Column(null);
+			StringBuffer str = new StringBuffer();
+			for(int i=0; i<list.size(); i++)
+			{
+				str.append("回复["+list.get(i).getCommand()+"]可以查看"+list.get(i).getDescription()+"<br/>");
+			}
+	return str.toString();
+		}
+			
+		list = m.Select_Information_From_Column(command);		
+		if(list != null && list.size() > 0)
+			return list.get(0).getContent();
+		return Iconst.No_Matching_Content;
+ 	}
+	
+
+}

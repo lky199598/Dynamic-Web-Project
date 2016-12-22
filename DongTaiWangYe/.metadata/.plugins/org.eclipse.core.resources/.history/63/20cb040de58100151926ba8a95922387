@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<div id="test">
+
+<p id="x1">HTML</p>
+<p>JavaScript</p>
+
+</div>
+
+<script type="text/javascript">
+
+var test = document.getElementById("test");
+var NewNode = document.createElement("p");
+NewNode.innerHTML = "This is a new node";
+test.appendChild(NewNode);
+
+</script>
+</body>
+</html>

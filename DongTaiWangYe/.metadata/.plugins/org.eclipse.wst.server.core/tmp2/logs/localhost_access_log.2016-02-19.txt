@@ -1,0 +1,10 @@
+127.0.0.1 - - [19/Feb/2016:21:55:34 +0800] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [19/Feb/2016:21:55:39 +0800] "GET /MicroMessage_Mybatis/ListServlet.action HTTP/1.1" 500 10965
+127.0.0.1 - - [19/Feb/2016:21:55:40 +0800] "GET /favicon.ico HTTP/1.1" 404 973
+127.0.0.1 - - [19/Feb/2016:21:55:57 +0800] "GET /MicroMessage_Mybatis/ListServlet.action HTTP/1.1" 500 10965
+127.0.0.1 - - [19/Feb/2016:21:57:52 +0800] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [19/Feb/2016:21:57:53 +0800] "GET /MicroMessage_Mybatis/ListServlet.action HTTP/1.1" 500 10965
+127.0.0.1 - - [19/Feb/2016:22:29:57 +0800] "GET /MicroMessage_Mybatis/ListServlet.action HTTP/1.1" 500 10965
+127.0.0.1 - - [19/Feb/2016:22:31:09 +0800] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [19/Feb/2016:22:31:10 +0800] "GET /MicroMessage_Mybatis/ListServlet.action HTTP/1.1" 500 10965
+127.0.0.1 - - [19/Feb/2016:22:31:14 +0800] "GET /favicon.ico HTTP/1.1" 404 973

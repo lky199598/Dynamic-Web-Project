@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+function operation() {
+	var num1=parseInt(document.getElementById("num1"));
+	
+	var num2=parseInt(document.getElementById("num2"));
+	
+	var select=document.getElementById("select");
+	switch(select)
+	{
+	case "+":
+	
+	}
+}
+</script>
+
+</head>
+
+<body>
+
+<input type="text" id="num1">
+<select id="select">
+
+<option value="+">+</option>
+<option value="-">-</option>
+<option value="*">*</option>
+<option value="/">/</option>
+
+</select>
+
+<input type="text" id="num2">
+
+
+</select>
+</body>
+</html>

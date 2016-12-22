@@ -1,0 +1,10 @@
+package Annotation;
+
+public class test {
+
+	public char sex()
+	{
+		Person p = new Child();
+		return p.sex();
+	}
+}

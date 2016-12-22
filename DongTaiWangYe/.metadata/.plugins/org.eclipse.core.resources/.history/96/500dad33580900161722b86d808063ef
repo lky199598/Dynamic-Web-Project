@@ -1,0 +1,11 @@
+package com.lifeCycle;
+
+import com.ioc.base.UnitTestBase;
+
+public class TestBeanLifeCycle extends UnitTestBase
+{
+	public void test()
+	{
+		super.getBean(beanId);
+	}
+}

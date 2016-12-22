@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;junit&apos; to &apos;lib&apos;&#x0D;&#x0A;- Original project: &apos;FirstSpring2&apos;&#x0D;&#x0A;- Destination element: &apos;lib&apos;&#x0D;&#x0A;- Original element: &apos;junit&apos;" description="Copy folder" element1="WebContent/WEB-INF/lib/junit" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1479626034057" target="/Spring-transaction/WebRoot/WEB-INF/lib" units="0" version="1.0"/>
+</session>

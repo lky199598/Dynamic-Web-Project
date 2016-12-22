@@ -1,0 +1,12 @@
+package Spring.demo1;
+/*
+ * 转账案例的测试类
+ */
+public class SpringDemo1 {
+    
+	@Test
+    public void demo1()
+    {
+    	
+    }
+}

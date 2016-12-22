@@ -1,0 +1,23 @@
+package dao;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.apache.ibatis.jdbc.SQL;
+import org.apache.ibatis.session.SqlSession;
+
+import JavaBean.Command;
+import db.DBAccess;
+
+public class ContentDao {
+
+	public void insertBatchContent()
+	{
+		
+	}
+	public static void main(String[] args) {
+		ContentDao c = new ContentDao();
+
+	}
+}

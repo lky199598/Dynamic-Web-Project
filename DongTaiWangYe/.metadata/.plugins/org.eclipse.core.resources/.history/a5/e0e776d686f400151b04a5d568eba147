@@ -1,0 +1,21 @@
+ package InitClass;
+
+public class Mugs {
+	
+class Mug{
+	Mug(int marker)
+	{
+		print("Mug("+marker+")");
+	}
+}
+
+
+public class Mugs
+{
+	Mug mug1;
+	Mug mug2;
+	{
+		
+	}
+}
+}

@@ -1,0 +1,33 @@
+package FrameWork;
+
+import java.util.ArrayList;
+
+public class ArrayListClass {
+	public  void add(ArrayList<String> list)
+	{
+		list.add("CCC");
+		for(String s:list)
+			System.out.print(s+"  ");
+		System.out.println("\n");
+	}
+	
+	public static void remove(ArrayList<String> list)
+	{
+		list.remove(2);
+		for(int i=0; i<list.size(); i++)
+			System.out.print(list.get(i)+"  ");		
+		System.out.println("\n");
+	}
+	
+	
+public static void main(String[] args) {
+	ArrayList<String> list = new ArrayList<String>();
+	list.add("AAA");
+	list.add("BBB");
+	
+	ArrayListClass a = new ArrayListClass();
+	a.add(list);
+	remove(list);
+}
+
+}

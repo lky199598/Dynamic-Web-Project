@@ -1,0 +1,5 @@
+package com.ioc.injection.dao;
+
+public class InjectionDAOImpl implements InjectionDAO{
+
+}

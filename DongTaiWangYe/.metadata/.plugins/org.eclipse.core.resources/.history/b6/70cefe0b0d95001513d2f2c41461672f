@@ -1,0 +1,9 @@
+package com.reflect;
+
+public class DynamicLoadingClass {
+
+	public static void main(String[] args)
+	{
+		Class c = Class.forName(args[0]);
+	}
+}

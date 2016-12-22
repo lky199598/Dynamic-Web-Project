@@ -1,0 +1,5 @@
+package com.ioc.aware;
+
+public class MyApplicationContextAware {
+
+}

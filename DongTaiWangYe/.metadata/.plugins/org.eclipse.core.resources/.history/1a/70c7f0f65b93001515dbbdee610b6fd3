@@ -1,0 +1,41 @@
+package com;
+
+class A
+{
+	public A()
+	{
+	System.out.println("A");
+	}
+	
+	{
+		
+		System.out.println("I'm A");
+	}
+	
+	static
+	{
+	System.out.println("static A");
+	}
+}
+
+
+public class B extends A{
+	public  B() {
+		System.out.println("B");
+	}
+	{
+		System.out.println("I'm B");
+	}
+	
+	static
+	{
+		System.out.println("static B");
+	}
+	
+	public static void  main() {
+		new B();
+	}
+		
+	}
+
+}

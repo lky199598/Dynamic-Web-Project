@@ -1,0 +1,24 @@
+package Annotation;
+
+import java.util.Date;
+
+public class User {
+	private byte a;
+	private char b;
+	private short c;
+	private int d;
+	private long e;
+	private float f;
+	private double g;
+	private boolean h;
+
+	
+	
+	public static void main(String[] args) {
+		User user = new User();
+		System.out.println("int: "+user.getN()+"\nString: "+user.getUser_id()+"\nchar: "+user.getUser_sex() +"\nDate: "+user.getUser_birthday()+"\n");
+
+		System.out.println(user.getClass().getSimpleName());
+	}
+
+}

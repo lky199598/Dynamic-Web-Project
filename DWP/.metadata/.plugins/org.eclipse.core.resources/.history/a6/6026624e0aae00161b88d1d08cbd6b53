@@ -1,0 +1,20 @@
+class E{
+	private int a;
+	int b;
+}
+
+class F extends E{
+	
+	//private int a;
+
+	void print()
+	{
+		a=1;
+		b=2;
+	}
+}
+
+
+public class ExtendsTest {
+
+}

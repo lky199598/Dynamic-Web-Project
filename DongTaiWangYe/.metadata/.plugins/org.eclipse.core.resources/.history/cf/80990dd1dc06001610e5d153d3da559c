@@ -1,0 +1,29 @@
+package com.ioc.injection.dao;
+
+public class InjectionDAOImpl implements InjectionDAO{
+
+	private InjectionDAO injectionDAO;
+	
+	
+	
+	public InjectionDAO getInjectionDAO() {
+		return injectionDAO;
+	}
+
+
+   //设值注入
+	public void setInjectionDAO(InjectionDAO injectionDAO) {
+		this.injectionDAO = injectionDAO;
+	}
+
+
+
+	@Override
+	public void save(String arg)
+	{
+	//
+	System.out.println("保存数据： "+arg);	
+	arg = arg+", "+hashCode();
+	injectionDAO.save(arg);
+    }
+}

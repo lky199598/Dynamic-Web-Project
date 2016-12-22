@@ -1,0 +1,10 @@
+package cifa;
+
+public class CiFa {
+      
+	private static char ch;
+	private static String strToken;
+	private static int index = 0;
+	
+	
+}

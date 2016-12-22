@@ -1,0 +1,32 @@
+package FrameWork;
+
+import java.util.HashSet;
+
+
+public class HashSetClass {
+	
+	public static void add(HashSet<String> hash)
+	{
+		hash.add("AAA");
+		hash.add("BBB");
+		hash.add("CCC");
+	}
+	
+	public static void remove(HashSet<String> hash)
+	{
+		hash.remove(hash);
+		hash.remove(hash);	
+	}
+	
+	public static void query(HashSet<String> hash)
+	{
+			
+	}
+	
+public static void main(String[] args) {
+	HashSet<String> hash = new HashSet<String>();
+	
+}
+
+
+}

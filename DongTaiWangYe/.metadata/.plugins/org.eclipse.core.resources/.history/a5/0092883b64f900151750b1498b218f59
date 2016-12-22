@@ -1,0 +1,41 @@
+package FrameWork;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Vector;
+
+public class VectorClass {
+	public void add(Vector<String> list)
+	{
+		list.add("CCC");
+		for(String s:list)
+			System.out.print(s+"  ");
+		System.out.println("\n");
+	}
+	
+	public static void remove(Vector<String> list)
+	{
+		list.remove(2);
+		list.add("GGG");
+		
+		for(int i=0; i<list.size(); i++)
+			System.out.print(list.get(i)+"  ");		
+		System.out.println("\n");
+		list.add("GGG");
+	}
+	
+	
+public static void main(String[] args) {
+	Vector<String> list = new Vector<String>();
+	list.add("AAA");
+	list.add(1, "BBB");
+	
+	
+	VectorClass a = new VectorClass();
+	a.add(list);//静态方法不可以调用非静态方法
+	
+	remove(list);
+}
+
+
+}

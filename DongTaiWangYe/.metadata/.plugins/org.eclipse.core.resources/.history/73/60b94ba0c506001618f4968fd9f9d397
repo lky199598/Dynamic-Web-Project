@@ -1,0 +1,20 @@
+package com.ioc.interfaces;
+
+import com.ioc.base.UnitTestBase;
+
+public class TestOneInterface extends  UnitTestBase{
+	
+public OneInterface()
+{
+	super("classpath*:spring-*.xml");
+}
+
+
+@Test
+public void test()
+{
+	OneInterface 
+}
+
+
+}

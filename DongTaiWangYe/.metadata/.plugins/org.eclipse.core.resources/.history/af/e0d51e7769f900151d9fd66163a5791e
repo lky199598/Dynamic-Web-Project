@@ -1,0 +1,41 @@
+package FrameWork;
+
+import java.util.HashSet;
+import java.util.Stack;
+
+public class HashSetClass {
+	
+	public static void push(Stack<String> s)
+	{
+		s.push("AAA");
+		s.push("BBB");
+		s.push("CCC");
+	}
+	
+	public static void search(Stack<String> s)
+	{
+		System.out.println(s.search("AAA"));
+		System.out.println(s.search("BBB"));
+		System.out.println(s.search("CCC"));
+		System.out.println(s.search("GGG"));
+		System.out.println();
+	}
+	
+	public static void pop(Stack<String> s)
+	{
+		while(!s.empty())// ²âÊÔ¶ÑÕ»ÊÇ·ñÎª¿Õ
+		{
+			String str = s.pop();
+			System.out.println(str+"  ");
+		}
+		System.out.println();
+			
+	}
+	
+public static void main(String[] args) {
+	HashSet<String> hash = new HashSet<String>();
+	
+}
+
+
+}

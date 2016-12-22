@@ -1,0 +1,5 @@
+package com.ioc.beanScope;
+
+public class BeanScope {
+
+}

@@ -1,0 +1,130 @@
+package FrameWork;
+
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.TreeSet;
+
+
+public class TreeSetClass 
+{
+	public static void add(TreeSet<Student> ts)
+	{       
+		System.out.println("ts.size(): "+ts.size());
+		ts.add(new Student("aaa",88));
+		ts.add(new Student("aaa",88));
+		ts.add(new Student("aaa",78));
+		ts.add(new Student("aaa",98));
+	}
+	
+	public static void query1(TreeSet<Student> ts)
+	{
+		System.out.println("hash.size(): "+ts.size());
+		for(Student s:ts)	
+		{
+			System.out.print(s.toString());
+		}
+		System.out.println();
+	}
+	
+	public static void query2(HashSet<Student> hash)
+	{
+
+		System.out.println("hash.size(): "+hash.size());
+		
+		//返回对此 set 中元素进行迭代的迭代器。返回元素的顺序并不是特定的
+		Iterator<Student> stu = hash.iterator();
+		while(stu.hasNext())
+		{
+			Student s = stu.next();
+			System.out.print(s);
+			if(s != null)
+				System.out.print(", id: "+s.id);
+			System.out.println();
+		}
+		System.out.println();
+	}
+	
+    public static void main(String[] args)  
+    {
+        TreeSet ts = new TreeSet();
+         add(ts);
+    
+    }
+}
+ 
+//同姓名同年龄的学生视为同一个学生。按照学生的年龄排序。
+class Student implements Comparable
+{
+    private int age;
+    private String name;
+    
+    Student(String name,int age)
+    {
+        this.age = age;
+        this.name = name;
+    }
+ 
+    public int compareTo(Object obj)
+    {
+        
+        Student stu = (Student)obj;
+        
+        int num = new Integer(this.age).compareTo(new Integer(stu.age));
+ 
+        return num==0?this.name.compareTo(stu.name):num;
+ 
+        /*
+        if(this.age>stu.age)
+            return 1;
+        if(this.age==stu.age)
+            return this.name.compareTo(stu.name);
+        return -1;
+        */
+        /**/
+        
+    }
+    
+ 
+    public int getAge()
+    {
+        return age;
+    }
+    public String toString()
+    {
+        return name+"::"+age;
+    }
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + age;
+		result = prime * result + ((name == null) ? 0 : name.hashCode());
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Student other = (Student) obj;
+		if (age != other.age)
+			return false;
+		if (name == null) {
+			if (other.name != null)
+				return false;
+		} else if (!name.equals(other.name))
+			return false;
+		return true;
+	}
+    
+    
+    
+}
+
+ 
+

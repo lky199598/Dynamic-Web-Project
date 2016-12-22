@@ -1,0 +1,45 @@
+INDEX VERSION 1.126
+F:\Dynamic web project\????\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4204744576.index
+\MicroMessage_Mybatis\src
+F:\Dynamic web project\????\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3034898547.index
+\MicroMessage\src
+F:\Dynamic web project\????\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2145046063.index
+\StructsInterceptor\src
+F:\Dynamic web project\????\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1001921280.index
+\FirstFilter\src
+F:\Dynamic web project\????\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1213635388.index
+\MicroMessage_Mybatis\src
+F:\Dynamic web project\????\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3934565520.index
+\FirstEL\src
+F:\Dynamic web project\????\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2300016227.index
+\Student1\src
+F:\Dynamic web project\????\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2729276321.index
+\FirstListener\src
+F:\Dynamic web project\????\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\638690265.index
+\LoginFilterServlet\src
+F:\Dynamic web project\????\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\173627229.index
+\ServletForm\src
+F:\Dynamic web project\????\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2181880901.index
+\Shopping2\src
+F:\Dynamic web project\????\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\959979267.index
+\StructsInterceptor\src
+F:\Dynamic web project\????\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2408828254.index
+\MicroMessage\src
+F:\Dynamic web project\????\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1853541523.index
+\FirstServlet\src
+F:\Dynamic web project\????\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1762403108.index
+\MicroMessage_Mybatis\src
+F:\Dynamic web project\????\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\911688962.index
+\ServletForm\src
+F:\Dynamic web project\????\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\97113504.index
+\FirstStruts2\src
+F:\Dynamic web project\????\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3745481419.index
+\LoginFilter\src
+F:\Dynamic web project\????\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2711064168.index
+\TianTianShortRentV1.3\src
+F:\Dynamic web project\????\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4071274518.index
+\SessionManager\src
+F:\Dynamic web project\????\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3812928598.index
+\MicroMessage\src
+F:\Dynamic web project\????\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1906818457.index
+\FirstStruts2\src

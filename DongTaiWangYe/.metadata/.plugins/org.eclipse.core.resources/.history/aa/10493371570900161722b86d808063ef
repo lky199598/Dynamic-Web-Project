@@ -1,0 +1,5 @@
+package com.lifeCycle;
+
+public class BeanLifeCycle {
+
+}

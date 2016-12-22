@@ -1,0 +1,49 @@
+package dao;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.apache.ibatis.jdbc.SQL;
+import org.apache.ibatis.session.SqlSession;
+
+import JavaBean.Message;
+import db.DBAccess;
+
+public class MessageDao_1 {
+
+	public ArrayList<Message> Select_Information_From_Column(String command,
+			String description) {
+
+		DBAccess dbAccess = new DBAccess();
+		SqlSession sqlSession = null;
+		List<Message> Message_List = new ArrayList<Message>();
+		try {
+			sqlSession = dbAccess.getSqlSession();
+            Message m = new Message();
+            if(command != null)
+            m.setCommand(command.trim());
+            
+            if(description != null)			
+            	m.setDescription(description.trim());
+
+            
+			Message_List = sqlSession.selectList("Select_Message_Information", m);
+			return (ArrayList<Message>) Message_List;
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+		finally {
+			if (sqlSession != null)
+				sqlSession.close();
+		}
+		return null;
+	}
+
+	public static void main(String[] args) {
+		MessageDao_1 m = new MessageDao_1();
+		m.Select_Information_From_Column("", "");
+	}
+}

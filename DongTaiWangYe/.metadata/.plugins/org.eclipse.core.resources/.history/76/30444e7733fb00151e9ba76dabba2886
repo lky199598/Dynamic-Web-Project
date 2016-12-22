@@ -1,0 +1,85 @@
+package FrameWork;
+
+import java.util.ArrayList;
+
+public class ArrayListClass {
+	public  void add(ArrayList<String> list)
+	{
+		list.add("CCC");
+		for(String s:list)
+			System.out.print(s+"  ");
+		System.out.println("\n");
+	}
+	
+	public static void remove(ArrayList<String> list)
+	{
+		list.remove(2);
+		for(int i=0; i<list.size(); i++)
+			System.out.print(list.get(i)+"  ");		
+		System.out.println("\n");
+	}
+	
+	
+public static void main(String[] args) {
+	ArrayList<String> list = new ArrayList<String>();
+	list.add("AAA");
+	list.add("BBB");//list.add(1, "BBB");
+	
+	ArrayListClass a = new ArrayListClass();
+	a.add(list);//静态方法不可以调用非静态方法
+	
+	remove(list);
+}
+}
+
+
+class Student1
+{
+	int id;
+	String name;
+	double grade;
+	
+	public Student(int id)
+	{
+		this.id = id;
+	}
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		long temp;
+		temp = Double.doubleToLongBits(grade);
+		result = prime * result + (int) (temp ^ (temp >>> 32));
+		result = prime * result + id;
+		result = prime * result + ((name == null) ? 0 : name.hashCode());
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Student other = (Student) obj;
+		if (Double.doubleToLongBits(grade) != Double
+				.doubleToLongBits(other.grade))
+			return false;
+		if (id != other.id)
+			return false;
+		if (name == null) {
+			if (other.name != null)
+				return false;
+		} else if (!name.equals(other.name))
+			return false;
+		return true;
+	}
+	
+
+}
+
+
+

@@ -1,0 +1,19 @@
+package Spring.demo1;
+
+import javax.annotation.Resource;
+
+/*
+ * 转账案例的测试类
+ */
+public class SpringDemo1 {
+    
+	//测试业务层的类
+	@Resource(name="accountService")
+	private AccountService accountService;
+	
+	@Test
+    public void demo1()
+    {
+    	
+    }
+}

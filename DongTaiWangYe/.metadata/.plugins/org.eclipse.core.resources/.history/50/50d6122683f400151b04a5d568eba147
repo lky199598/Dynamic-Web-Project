@@ -1,0 +1,31 @@
+package InitClass;
+
+public class NewVarArgs {
+
+	/*
+	 * 可变参数列表
+	 */
+	
+	static class B{}
+	
+	static void printArray(Object... args)
+	{
+		for(Object obj : args)
+			System.out.print(obj+" ");
+		System.out.println();
+	}
+	
+	public static void main(String[] args) {
+		printArray(new Integer(48), new Float(3.16), new Double(11.11));
+		
+		printArray(48, 3.16, 11.11);
+		
+		printArray("one", "two", "three");
+		
+		printArray(new B(), new B(), new B());		
+		
+		printArray( (Object[])new Integer[]{1,2,3} );
+		
+		printArray();
+	}
+}

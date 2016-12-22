@@ -1,0 +1,5 @@
+package com.ioc.base;
+
+public interface UnitTestBase {
+      
+}

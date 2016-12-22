@@ -1,0 +1,9 @@
+package InitClass;
+
+public class NewVarArgs {
+
+	static void printArray(Object... args)
+	{
+		
+	}
+}

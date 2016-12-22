@@ -1,0 +1,91 @@
+package com.JavaBean;
+
+public class Goods {
+	private String goodsID;
+	private String userID;// 卖方，即上传物品者
+	private String name;
+	private double price;
+	private int number;
+	private String picture;
+
+	private String type;// 卖出或租赁
+	private int station;// 1:过审核 0:等待审核 -1:未过审核
+	private String date;// 刚上传日期；过审核日期；未过审核日期
+
+	public Goods() {
+	}
+
+	public String getGoodsID() {
+		return goodsID;
+	}
+
+	public void setGoodsID(String goodsID) {
+		this.goodsID = goodsID;
+	}
+
+	public String getUserID() {
+		return userID;
+	}
+
+	public void setUserID(String userID) {
+		this.userID = userID;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public double getPrice() {
+		return price;
+	}
+
+	public void setPrice(double price) {
+		this.price = price;
+	}
+
+	public int getNumber() {
+		return number;
+	}
+
+	public void setNumber(int number) {
+		this.number = number;
+	}
+
+	public String getPicture() {
+		return picture;
+	}
+
+	public void setPicture(String picture) {
+		this.picture = picture;
+	}
+
+	public String getType() {
+		return type;
+	}
+
+	public void setType(String type) {
+		this.type = type;
+	}
+
+	public int getStation() {
+		return station;
+	}
+
+	public void setStation(int station) {
+		this.station = station;
+	}
+
+	public String getDate() {
+		return date;
+	}
+
+	public void setDate(String date) {
+		this.date = date;
+	}
+
+	
+}

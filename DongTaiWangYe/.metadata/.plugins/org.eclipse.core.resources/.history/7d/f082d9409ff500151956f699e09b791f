@@ -1,0 +1,13 @@
+package StrutsAction;
+
+import com.opensymphony.xwork2.ActionSupport;
+
+public class FirstStrutsAction extends ActionSupport {
+
+	@Override
+	public String execute(){
+		System.out.println("FirstStrutsAction");
+		return "success";
+	}
+	
+}

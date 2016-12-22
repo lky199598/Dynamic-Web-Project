@@ -1,0 +1,27 @@
+package Service;
+
+/*
+ * 维护Message表相关的业务功能
+ */
+
+import java.util.ArrayList;
+import java.util.List;
+
+import JavaBean.Message;
+import dao.JDBC_reflect;
+import dao.MessageDao_1;
+
+public class MessageService {
+	public ArrayList<Message> Select_Information_From_Column(String command,
+			String description) {
+		return new MessageDao_1().Select_Information_From_Column(command, description)
+	}
+
+	public void Delete_One_Message(String id) {
+		if (id != null && !"".equals(id.trim())) {
+			MessageDao_1 m = new MessageDao_1();
+			m.Delete_One_Message(Integer.valueOf(id));
+		}
+	}
+
+}

@@ -1,0 +1,21 @@
+package com.imooc.autowiring;
+
+public class AutoWiringService {
+	
+	private AutoWiringDAO autoWiringDAO;
+
+    public public AutoWiringService(AutoWiringDAO autoWiringDAO) {
+		// TODO Auto-generated constructor stub
+	}
+   
+	
+	
+	public void setAutoWiringDAO(AutoWiringDAO autoWiringDAO) {
+		this.autoWiringDAO = autoWiringDAO;
+	}
+	
+	public void say(String word) {
+		autoWiringDAO.say(word);
+	}
+
+}

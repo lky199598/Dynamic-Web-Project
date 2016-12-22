@@ -1,0 +1,13 @@
+package com;
+
+public class A {
+	public void f() {
+		System.out.println(s());
+	}
+
+	public String s() {
+
+		return "A";
+	}
+
+}

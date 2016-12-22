@@ -1,0 +1,5 @@
+package com.ioc.interfaces;
+
+public class OneInterfaceImpl {
+
+}

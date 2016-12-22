@@ -1,0 +1,25 @@
+package cifa;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+
+public class CiFa {
+      
+	private static char ch;
+	private static String strToken;
+	private static int index = 0;
+	private static int line = 1;
+	
+	private static boolean noteTag  = false;
+	
+	private Map<Integer, String> keywords;
+	private HashMap<String, Integer> punctuations;
+	
+	private static ArrayList<String> p = new ArrayList<String>();
+	
+	private static ArrayList<String> q = new ArrayList<String>();
+	
+	
+	
+}

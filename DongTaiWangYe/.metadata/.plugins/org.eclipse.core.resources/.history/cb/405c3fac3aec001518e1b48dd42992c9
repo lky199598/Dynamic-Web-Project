@@ -1,0 +1,46 @@
+package Interceptor;
+
+import java.lang.Thread.State;
+import java.util.Properties;
+
+import org.apache.ibatis.executor.statement.StatementHandler;
+import org.apache.ibatis.mapping.MappedStatement;
+import org.apache.ibatis.plugin.Interceptor;
+import org.apache.ibatis.plugin.Intercepts;
+import org.apache.ibatis.plugin.Invocation;
+import org.apache.ibatis.plugin.Plugin;
+import org.apache.ibatis.plugin.Signature;
+import org.apache.ibatis.reflection.MetaObject;
+import org.apache.ibatis.reflection.SystemMetaObject;
+
+import com.mysql.jdbc.Connection;
+/*
+ * 分页拦截器
+ */
+
+//分页拦截器描述拦截这件事，mybatis提供相关的注解
+@Intercepts({@Signature(type=StatementHandler.class,method="prepare", args={Connection.class})})
+
+public class PageInterceptor implements Interceptor{
+
+	@Override
+	public Object intercept(Invocation arg0) throws Throwable {
+		StatementHandler statementHandler = (StatementHandler)arg0.getTarget();
+		MetaObject metaObject = MetaObject.forObject(statementHandler, SystemMetaObject.DEFAULT_OBJECT_FACTORY, SystemMetaObject.DEFAULT_OBJECT_WRAPPER_FACTORY);
+		MappedStatement mappedStatement = (MappedStatement)metaObject.getValue("delegate.mappedStatement");
+		return null;
+	}
+
+	@Override
+	public Object plugin(Object arg0) {
+		// 返回一个代理实例
+		return Plugin.wrap(arg0, this);
+	}
+
+	@Override
+	public void setProperties(Properties arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

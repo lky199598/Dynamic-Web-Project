@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+function operation() {
+	var num1=Double.parseDouble(document.getElementById("num1").value);
+	
+	var num1=Double.parseDouble(document.getElementById("num2").value);
+	
+	var select=document.getElementById("select");
+	
+	var result;
+	
+	switch(select)
+	{
+	case "+":
+		result=num1+num2;
+		break;
+	case "-":
+		result=num1-num2;
+		break;
+	case "*":
+		result=num1*num2;
+		break;
+		
+	case "/":
+		result=(double)num1/num2;	
+	}
+}
+</script>
+
+</head>
+
+<body>
+
+<input type="text" id="num1">
+<select id="select">
+
+<option value="+">+</option>
+<option value="-">-</option>
+<option value="*">*</option>
+<option value="/">/</option>
+
+</select>
+
+<input type="text" id="num2">
+
+
+</select>
+</body>
+</html>

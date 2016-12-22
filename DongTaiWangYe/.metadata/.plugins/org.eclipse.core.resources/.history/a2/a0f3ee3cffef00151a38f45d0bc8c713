@@ -1,0 +1,96 @@
+package Interceptor;
+
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.Map;
+import java.util.Properties;
+
+import entity.Page;
+
+import org.apache.ibatis.executor.parameter.ParameterHandler;
+import org.apache.ibatis.executor.statement.StatementHandler;
+import org.apache.ibatis.mapping.BoundSql;
+import org.apache.ibatis.mapping.MappedStatement;
+import org.apache.ibatis.plugin.Interceptor;
+import org.apache.ibatis.plugin.Intercepts;
+import org.apache.ibatis.plugin.Invocation;
+import org.apache.ibatis.plugin.Plugin;
+import org.apache.ibatis.plugin.Signature;
+import org.apache.ibatis.reflection.MetaObject;
+import org.apache.ibatis.reflection.SystemMetaObject;
+
+import entity.Page;
+/*
+ * 分页拦截器
+ */
+
+//分页拦截器描述拦截这件事，mybatis提供相关的注解
+@Intercepts({@Signature(type=StatementHandler.class,method="prepare", args={Connection.class})})
+
+public class PageInterceptor implements Interceptor{
+    private String pageInformation;
+	
+	@Override
+	public Object intercept(Invocation arg0) throws Throwable {
+		System.out.println("BBB");	
+		StatementHandler statementHandler = (StatementHandler)arg0.getTarget();
+		MetaObject metaObject = MetaObject.forObject(statementHandler, SystemMetaObject.DEFAULT_OBJECT_FACTORY, SystemMetaObject.DEFAULT_OBJECT_WRAPPER_FACTORY);
+		MappedStatement mappedStatement = (MappedStatement)metaObject.getValue("delegate.mappedStatement");
+		System.out.println("BBB1");	
+	
+		//配置文件中SQL语句的ID
+	    String id = mappedStatement.getId();
+	   
+	    //.匹配除“\n”之外的任何单个字符。若要匹配包括“\n”在内的任意字符，请使用诸如“[\s\S]”之类的模式。
+	    //+一次或多次匹配前面的字符或子表达式。例如，“zo+”与“zo”和“zoo”匹配，但与“z”不匹配。+ 等效于 {1,}
+	    //$匹配输入字符串结尾的位置。如果设置了 RegExp 对象的 Multiline 属性，$还会与“\n”或“\r”之前的位置匹配。
+
+	    if(id.matches(".+ByPage$"))
+		{
+			BoundSql boundSql = statementHandler.getBoundSql();
+			
+			// 原始的SQL语句
+			String sql = boundSql.getSql();
+			
+			
+			
+			//查询总条数的SQl语句s
+			String countSql =  "select count(*) from (" + sql + ")a";
+		    Connection connection  = (Connection)arg0.getArgs()[0];
+			PreparedStatement preparedStatement =  connection.prepareStatement(countSql);
+			
+		    ParameterHandler parameterHandler = (ParameterHandler)metaObject.getValue("delegate.parameterHandler");
+		    parameterHandler.setParameters(preparedStatement);
+		    
+			ResultSet res = preparedStatement.executeQuery();
+		    		
+			Map<?, ?> parameter = (Map<?, ?>)boundSql.getParameterObject();
+
+			Page page = (Page)parameter.get("page");
+			if(res.next())
+			{
+				page.setTotalMessageNumber(res.getInt(1));
+			}
+			
+			//改造后带分页查询的SQL语句
+			String pageSql = sql+" limit "+page.getIndexMessageNumber()+","+page.getPagenumber();
+		    //修改为新的Sql
+			metaObject.setValue("delegate.boundSql.sql", pageSql);
+		}
+		return arg0.proceed();
+	}
+
+	@Override
+	public Object plugin(Object arg0) {
+		// 返回一个代理实例
+		System.out.println("AAA");
+		return Plugin.wrap(arg0, this);
+	}
+
+	@Override
+	public void setProperties(Properties arg0) {
+		// TODO Auto-generated method stub
+		pageInformation = arg0.getProperty("pageInformation");
+	}
+
+}

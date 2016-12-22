@@ -1,0 +1,69 @@
+package cifa;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+
+public class CiFa {
+      
+	private static char ch;
+	private static String strToken;
+	private static int index = 0;
+	private static int line = 1;
+	
+	private static boolean noteTag  = false;
+	
+	private Map<Integer, String> keywords;
+	private HashMap<String, Integer> punctuations;
+	
+	private static ArrayList<String> p = new ArrayList<String>();
+	
+	private static ArrayList<String> q = new ArrayList<String>();
+
+	public static char getCh() {
+		return ch;
+	}
+
+	public static void setCh(char ch) {
+		CiFa.ch = ch;
+	}
+
+	public static String getStrToken() {
+		return strToken;
+	}
+
+	public static void setStrToken(String strToken) {
+		CiFa.strToken = strToken;
+	}
+
+	public HashMap<String, Integer> getPunctuations() {
+		return punctuations;
+	}
+
+	public void setPunctuations(HashMap<String, Integer> punctuations) {
+		this.punctuations = punctuations;
+	}
+	
+	public CiFa()
+	{
+		this.keywords =  new HashMap<Integer, String>();
+		keywords.put(1, "Program");
+		keywords.put(2, "begin");
+		keywords.put(3, "end");
+		keywords.put(4, "var");
+		keywords.put(5, "int");
+		
+		keywords.put(6, "and");
+		keywords.put(7, "or");
+		keywords.put(8, "not");
+		keywords.put(9, "if");
+		keywords.put(10, "then");
+		keywords.put(11, "else");
+		keywords.put(12, "while");
+		keywords.put(13, "do");
+	
+		
+	}
+	
+	
+}

@@ -1,0 +1,8 @@
+package Emp;
+
+public class HashMap {
+
+private Hash<String, Integer> goods;
+
+
+}

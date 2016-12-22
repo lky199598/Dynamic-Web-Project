@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<div id="test">
+
+<p id="x1">HTML</p>
+<p>JavaScript</p>
+
+</div>
+
+<script type="text/javascript">
+
+var test = document.getElementById("test");
+
+var x1 = test.removeChild(test.childNodes[1]);
+
+document.write("删除节点的内容: "+x1.innerHTML);
+
+</script>
+</body>
+</html>

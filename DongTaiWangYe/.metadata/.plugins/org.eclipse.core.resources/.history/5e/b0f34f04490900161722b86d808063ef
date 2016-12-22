@@ -1,0 +1,17 @@
+package com.ioc.injection.dao;
+
+import com.ioc.base.UnitTestBase;
+import com.ioc.injection.service.InjectionService;
+
+public class TestInjection extends UnitTestBase 
+{
+     TestInjection() {
+		super("classpath*:spring-*.xml");
+	}
+	@org.junit.Test
+	public void Test()
+	{
+		InjectionService service = super.getBean("injectionServiceImpl");
+		service.save("这是要保存的数据");
+	}
+}

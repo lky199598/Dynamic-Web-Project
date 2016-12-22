@@ -1,0 +1,26 @@
+package Spring.demo1;
+
+import javax.annotation.Resource;
+
+import org.junit.Test;
+import org.springframework.test.context.ContextConfiguration;
+
+/*
+ * 转账案例的测试类
+ */
+//@ContextConfiguration 用来指定加载的Spring配置文件的位置,会加载默认配置文件
+@ContextConfiguration("classpath*:applicationContext.xml")
+public class SpringDemo1 {
+    
+	//测试业务层的类
+	//@Resource:使用字段名字匹配bean,查找到bean则注入,如果类型不匹配则此时有异常,注入失败。
+	@Resource(name="accountService")
+	private AccountService accountService;
+	
+	@Test
+    public void demo1()
+    {
+		System.out.println("111111");
+    	accountService.transfer("aaa", "bbb", 200d);
+    }
+}

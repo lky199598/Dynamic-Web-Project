@@ -1,0 +1,14 @@
+package InitClass;
+
+class Window{
+	Window(int marker)
+	{
+		
+	}
+}
+
+public class ConstructorInit {
+
+
+
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<script type="text/javascript">
+function name() {
+	var num = document.getElementById("n");
+	document.write(num);
+}
+
+</script>
+
+</head>
+
+<body>
+<input type="text" id="n">
+<input type="button" 
+</body>
+</html>

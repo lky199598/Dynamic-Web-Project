@@ -1,0 +1,26 @@
+class E{
+	private int a=1;
+	int b=2;
+	void print()
+	{
+		System.out.println(a+" "+b+"\n");
+	}
+}
+
+class F extends E{
+	
+   private int a=11;
+   int b =22;
+	void print()
+	{
+		System.out.println(a+" "+b+"\n");
+	}
+}
+
+
+public class ExtendsTest {
+   public static void main(String[] args) {
+	F f = new F();
+	f
+}
+}

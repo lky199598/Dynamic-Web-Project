@@ -1,0 +1,57 @@
+package Servlet;
+
+import java.io.IOException;
+import java.sql.SQLException;
+import java.util.List;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import dao.JDBC;
+import JavaBean.Message;
+
+/**
+ * 列表页面初始化控制
+ */
+@WebServlet("/ListServlet")
+public class ListServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public ListServlet() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		
+		String command = request.getParameter("command");
+		String description = request.getParameter("description");
+/*		此方法可用于截去字符串开头和末尾的空白*/ 
+		if(command != null && !"".equals(command.trim()) && description != null !"".equals(description.trim()))
+		
+	    JDBC j = new JDBC();
+		 List<Object> Message_list = j.Select_All_Information(new Message());
+	
+	   request.setAttribute("Message_list", Message_list);
+	   request.setAttribute("Message_Length", Message_list.size());
+	   request.getRequestDispatcher("/WEB-INF/JSP/back/list.jsp").forward(request, response);
+
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		this.doGet(request, response);
+	}
+}

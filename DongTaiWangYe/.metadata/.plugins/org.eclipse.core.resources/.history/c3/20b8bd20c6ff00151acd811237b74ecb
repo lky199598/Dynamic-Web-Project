@@ -1,0 +1,15 @@
+package FrameWork;
+
+public class TreeMapClass {
+public static void 	put(TreeMap<Students, Integer> treemap)
+{
+	
+}
+	
+	
+public static void main(String[] args) {
+	
+}
+
+
+}

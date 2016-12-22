@@ -1,0 +1,11 @@
+package JavaBean;
+
+public class Command {
+private String command_ID;
+private String name;
+private String description;
+public Command() {
+}
+
+
+}

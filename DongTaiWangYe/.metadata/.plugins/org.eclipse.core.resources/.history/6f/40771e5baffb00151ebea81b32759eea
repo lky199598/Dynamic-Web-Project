@@ -1,0 +1,12 @@
+package Emp;
+
+class Art{
+	Art(){
+		print("Art constructor");
+	}
+}
+
+
+public class Cartoon {
+
+}

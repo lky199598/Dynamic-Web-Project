@@ -1,0 +1,41 @@
+package JavaBean;
+
+public class Command {
+	private int command_id;
+	private String name;
+	private String description;
+
+	public Command() {
+	}
+
+
+
+	public int getCommand_ID() {
+		return command_ID;
+	}
+
+
+
+	public void setCommand_ID(int command_ID) {
+		this.command_ID = command_ID;
+	}
+
+
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+}

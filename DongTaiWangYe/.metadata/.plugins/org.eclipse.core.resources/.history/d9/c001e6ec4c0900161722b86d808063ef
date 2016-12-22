@@ -1,0 +1,16 @@
+package com.ioc.beanScope;
+
+import com.ioc.base.UnitTestBase;
+
+public class TestBeanScope extends UnitTestBase{
+
+	public TestBeanScope()
+	{
+		super("")
+	}
+	
+	void Test()
+	{
+		BeanScope beanScope = super.getBean(beanId);
+	}
+}

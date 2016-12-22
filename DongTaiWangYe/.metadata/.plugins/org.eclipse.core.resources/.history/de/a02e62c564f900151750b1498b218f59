@@ -1,0 +1,20 @@
+package FrameWork;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Stack;
+import java.util.Vector;
+
+public class StackClass {
+	public static void push()
+	{
+		
+	}
+	
+public static void main(String[] args) {
+	Stack<String> s = new Stack<String>();
+	
+}
+
+
+}

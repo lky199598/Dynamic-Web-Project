@@ -1,0 +1,17 @@
+package com.lifeCycle;
+
+import org.junit.Test;
+
+import com.ioc.base.UnitTestBase;
+
+public class TestBeanLifeCycle extends UnitTestBase
+{
+	public TestBeanLifeCycle() {
+		// TODO Auto-generated constructor stub
+	}
+	@Test
+	public void test()
+	{
+		super.getBean("BeanLifeCycleImpl");
+	}
+}

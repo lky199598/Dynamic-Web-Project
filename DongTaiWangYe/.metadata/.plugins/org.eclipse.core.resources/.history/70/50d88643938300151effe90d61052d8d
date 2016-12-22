@@ -1,0 +1,25 @@
+package dao;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import entity.Items;
+
+public class Cart {
+
+	private Map<Items, Integer> goods;
+	
+	public Cart()
+	{
+		goods = new HashMap<Items, Integer>();
+	}
+	
+	public void AddInCart(Items item, int number)
+	{
+		if(goods.containsKey(item))
+			goods.put(item, goods.get(item)+number);
+		else
+			goods.put(item, number);
+	}
+	
+}

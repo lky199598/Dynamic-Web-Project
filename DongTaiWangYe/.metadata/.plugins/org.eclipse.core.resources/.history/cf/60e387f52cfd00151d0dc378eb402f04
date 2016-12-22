@@ -1,0 +1,13 @@
+package Action;
+
+import java.util.Map;
+
+public class LoginAction {
+
+	private String username;
+	private String password;
+	private Map<String, Object> session;
+	
+	
+	
+}

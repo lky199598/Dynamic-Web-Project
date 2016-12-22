@@ -1,0 +1,15 @@
+/*
+ * 不与数据库关联的类，放在entity包下
+ */
+package entity;
+/*
+ * 分页对应的实体类
+ */
+public class Page {
+private int totalNumber;//记录总条数
+private int pageNumber;//每页显示条数
+
+private int currentPage;//当前第几页
+
+
+}

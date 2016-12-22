@@ -1,0 +1,25 @@
+package Annotation;
+
+public class Child implements Person {
+
+	@Override//·½·¨¸²¸Ç
+	@Description("the name method")
+	public String name() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int age() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public char sex() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	
+}

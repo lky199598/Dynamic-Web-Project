@@ -1,0 +1,14 @@
+
+public class Person {
+static class Home{
+	public void A()
+	{
+		System.out.println("这是静态内部类的实例方法");
+	}
+	public void B()
+	{
+		System.out.println("这是静态内部类的");
+	}
+	
+}
+}

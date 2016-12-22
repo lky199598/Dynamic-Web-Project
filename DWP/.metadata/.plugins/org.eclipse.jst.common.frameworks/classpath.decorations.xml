@@ -1,0 +1,7 @@
+<classpath>
+  <container id="SpringTransaction!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="F:/Dynamic web project/动态网页/SpringTransaction/WebContent/WEB-INF/lib/spring-jdbc-3.2.0.RELEASE.jar">
+      <source-attachment-path>/SpringTransaction/WebContent/WEB-INF/lib/spring-beans-3.2.0.RELEASE.jar</source-attachment-path>
+    </entry>
+  </container>
+</classpath>

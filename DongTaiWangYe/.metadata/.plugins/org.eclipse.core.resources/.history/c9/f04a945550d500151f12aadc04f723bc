@@ -1,0 +1,19 @@
+package Service;
+
+/*
+ * 维护Message表相关的业务功能
+ */
+
+import java.util.List;
+
+import JavaBean.Message;
+import dao.JDBC_reflect;
+
+public class MessageService {
+	   JDBC_reflect j = new JDBC_reflect();
+	   
+	   public void Delete_One_Message(int id) {
+		   
+	   }
+		
+}

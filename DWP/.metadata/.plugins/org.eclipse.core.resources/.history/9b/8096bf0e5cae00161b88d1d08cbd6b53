@@ -1,0 +1,17 @@
+package Spring.demo1;
+
+public class AccountDaoImpl implements AccountDao {
+
+	@Override
+	public void outMoney(String out, Double money) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void inMoney(String in, Double money) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package Util;
+
+/*
+ * 共通的常量定义
+ */
+
+public interface Iconst {
+
+	public static final String no_matching_content=""
+}

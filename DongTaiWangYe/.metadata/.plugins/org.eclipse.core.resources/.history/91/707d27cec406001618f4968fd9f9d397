@@ -1,0 +1,8 @@
+package com.ioc.interfaces;
+
+import com.ioc.base.UnitTestBase;
+
+public class OneInterfaceImpl extends  UnitTestBase{
+	
+public One
+}

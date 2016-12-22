@@ -1,0 +1,19 @@
+package com.imooc.autowiring;
+
+public class AutoWiringService {
+	
+	private AutoWiringDAO autoWiringDAO1;
+
+     /*public AutoWiringService(AutoWiringDAO autoWiringDAO) {
+		this.autoWiringDAO1 = autoWiringDAO;
+	}*/
+   	
+	public void setAutoWiringDAO(AutoWiringDAO autoWiringDAO1) {
+		this.autoWiringDAO1 = autoWiringDAO1;
+	}
+	
+	public void say(String word) {
+		autoWiringDAO1.say(word);
+	}
+
+}

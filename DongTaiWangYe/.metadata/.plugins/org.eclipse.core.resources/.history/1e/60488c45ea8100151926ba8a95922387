@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+
+<div id="content">
+
+<h1>JAVA</h1>
+<p>JSP</p>
+<h2>Servlet</h2>
+<li>HTML</li>
+<p>JavaScript</p>
+
+</div>
+
+
+</body>
+</html>

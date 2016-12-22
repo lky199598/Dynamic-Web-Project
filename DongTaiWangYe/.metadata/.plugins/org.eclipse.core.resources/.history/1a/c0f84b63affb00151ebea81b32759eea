@@ -1,0 +1,20 @@
+package Emp;
+
+class Art{
+	Art(){
+		print("Art constructor");
+	}
+}
+
+class Drawing extends Art
+{
+	Drawing()
+	{
+		System.out.println("");
+	}
+}
+
+
+public class Cartoon {
+
+}

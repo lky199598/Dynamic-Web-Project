@@ -1,0 +1,28 @@
+package Spring.demo1;
+
+/*
+ * 转帐案例的DAO层实现类
+ */
+public class AccountDaoImpl implements AccountDao {
+
+	/**
+	 * @param out:转出账号
+	 * @param money：转出金额
+	 */
+	@Override
+	public void outMoney(String out, Double money) {
+		String sql = "update account set money = money-? where name = ?";
+
+	}
+	
+	/**
+	 * @param in：转入账号
+	 * @param money：转账金额
+	 */
+	@Override
+	public void inMoney(String in, Double money) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

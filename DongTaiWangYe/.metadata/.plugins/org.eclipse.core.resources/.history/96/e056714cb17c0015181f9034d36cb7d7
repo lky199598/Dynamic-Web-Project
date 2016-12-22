@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+function info() {
+	alert("确定");
+}
+</script>
+
+</head>
+
+<body>
+
+<form>
+<input type="text" value="确定" onfocus ="info()"/>
+</form>
+</body>
+</html>

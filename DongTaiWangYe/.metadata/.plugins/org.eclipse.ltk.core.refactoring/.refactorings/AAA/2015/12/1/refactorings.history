@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;User.java&apos; to &apos; Hibernate_ORM/src/Annotation&apos;&#x0D;&#x0A;- Original project: &apos;AAA&apos;&#x0D;&#x0A;- Destination element: &apos; Hibernate_ORM/src/Annotation&apos;&#x0D;&#x0A;- Original element: &apos;com.User.java&apos;" description="Copy compilation unit" destination="= Hibernate_ORM/src&lt;Annotation" element1="/src&lt;com{User.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1451398793409" units="1" version="1.0"/>
+</session>

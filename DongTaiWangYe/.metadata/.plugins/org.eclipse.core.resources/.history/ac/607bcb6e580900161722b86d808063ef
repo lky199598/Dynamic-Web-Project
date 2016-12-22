@@ -1,0 +1,17 @@
+package com.lifeCycle;
+
+import org.junit.Test;
+
+import com.ioc.base.UnitTestBase;
+
+public class TestBeanLifeCycle extends UnitTestBase
+{
+	public TestBeanLifeCycle() {
+	super("classpath*:");
+	}
+	@Test
+	public void test()
+	{
+		super.getBean("BeanLifeCycleImpl");
+	}
+}

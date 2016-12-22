@@ -1,0 +1,5 @@
+package com.ioc.injection.service;
+
+public interface InjectionService {
+
+}

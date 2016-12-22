@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper namespace="Command">
+<resultMap type="JavaBean.Command" id="Command">
+<id column="" jdbcType="INTEGER" property=""/>
+<result column="" jdbcType="VARCHAR" property=""/>
+<result column="" jdbcType="VArCHAR" property=""/>
+</resultMap>
+
+</mapper>

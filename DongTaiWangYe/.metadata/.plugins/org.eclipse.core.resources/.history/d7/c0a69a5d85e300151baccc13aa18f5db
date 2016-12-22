@@ -1,0 +1,17 @@
+package DynamicProxy;
+
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Method;
+
+public class MapperProxy implements InvocationHandler{
+
+	@Override
+	public Object invoke(Object proxy, Method method, Object[] args)
+			throws Throwable {
+		System.out.println("通过接口与method获取对应的配置文件中的信息");
+		System.out.println("接口名称.方法名 == namespace.id");
+		
+		return null;
+	}
+
+}

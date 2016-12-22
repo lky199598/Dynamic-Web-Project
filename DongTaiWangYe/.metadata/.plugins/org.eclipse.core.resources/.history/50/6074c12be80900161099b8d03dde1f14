@@ -1,0 +1,9 @@
+package com.ioc.aware;
+
+import org.apache.catalina.core.ApplicationContext;
+
+public class MyApplicationContextAware extends ApplicationContext{
+public MyApplicationContextAware() {
+	// TODO Auto-generated constructor stub
+}
+}

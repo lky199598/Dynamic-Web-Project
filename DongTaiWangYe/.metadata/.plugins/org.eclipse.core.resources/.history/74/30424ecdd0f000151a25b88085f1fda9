@@ -1,0 +1,14 @@
+package FrameWork;
+
+import java.awt.List;
+import java.util.Collection;
+
+public class ShowJdkSrc {
+	public static void main(String[] args)
+	{
+		Collection<Object> c = new 
+				
+		List<>
+	}
+
+}

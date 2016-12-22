@@ -1,0 +1,15 @@
+package com.ioc.base;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class UnitTestBase 
+{   
+	private ClassPathXmlApplicationContext context;
+    
+	private String springXmlpath;
+	
+	public UnitTestBase(){}
+	
+	
+	
+}

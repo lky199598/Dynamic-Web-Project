@@ -1,0 +1,10 @@
+/*
+ * 不与数据库关联的类，
+ */
+package entity;
+/*
+ * 分页对应的实体类
+ */
+public class Page {
+
+}

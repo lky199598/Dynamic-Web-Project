@@ -1,0 +1,15 @@
+package com.lifeCycle;
+
+public class BeanLifeCycleImpl implements BeanLifeCycleInterface{
+	@Override
+	public void init() {
+		System.out.println("Bean Init");
+		
+	}
+	
+	@Override
+	public void destory() {
+		System.out.println("Bean destory");		
+	}
+
+}

@@ -1,0 +1,9 @@
+package Spring.demo1;
+/*
+ * 转帐案例的DAO层接口
+ */
+
+public interface AccountDao {
+
+	public void outMoney(String out, Double money)
+}

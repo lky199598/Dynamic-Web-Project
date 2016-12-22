@@ -1,0 +1,10 @@
+package com.ioc.aware;
+
+import org.springframework.beans.factory.BeanNameAware;
+
+public class BeanName implements BeanNameAware{
+	@Override
+	public void setBeanName(String arg0) {
+           System.out.println(arg0);		
+	}
+}

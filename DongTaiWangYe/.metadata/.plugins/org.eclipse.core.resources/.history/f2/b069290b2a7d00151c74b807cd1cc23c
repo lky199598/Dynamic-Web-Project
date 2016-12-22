@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<script type="text/javascript">
+window.onunload = AAA;
+function AAA() {
+	alert("您确定要离开这个网页吗");
+}
+</script>
+
+</head>
+
+<body>
+学习JavaScript.
+</body>
+</html>

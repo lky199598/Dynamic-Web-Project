@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>浏览器对象</title>  
+  <meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>   
+ </head>
+
+ <body>
+
+<p>
+<b id="second">5</b>秒后跳转
+</p>
+ 
+ <script type="text/javascript">
+ 
+ var n = document.getElementById("second").innerHTML;
+ 
+ var time = setInterval(function clock() {
+	 second.innerHTML=n--;
+	 if(n<1)
+		 window.location.href="hello.html";
+	
+}, 1000);
+ 
+ 
+ </script>
+ 
+ </body>
+</html>

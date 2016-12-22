@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper namespace="Command">
+<resultMap type="JavaBean.Content" id="Content">
+<id column="content_id" jdbcType="INTEGER" property="content_id"/>
+<result column="content" jdbcType="VARCHAR" property="content"/>
+<result column="command_id" jdbcType="INTEGER" property="command_id"/>
+</resultMap>
+</mapper>

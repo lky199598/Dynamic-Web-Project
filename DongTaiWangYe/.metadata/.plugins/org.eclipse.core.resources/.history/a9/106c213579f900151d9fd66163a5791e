@@ -1,0 +1,113 @@
+package FrameWork;
+
+import java.util.TreeSet;
+
+
+public class TreeSetClass 
+{
+	public static void add(TreeSet<Student> ts)
+	{
+		ts.add(new Student("aaa",88);
+		 ts.add(new Student("bbb",2));
+	}
+	
+    public static void main(String[] args)  
+    {
+        TreeSet ts = new TreeSet();
+ 
+        ts.add(new Student("aaa",88));
+      /*  ts.add(new Student("ccc",2));
+        ts.add(new Student("bbb",2));
+        ts.add(new Student("aaa",88));
+        ts.add(new Student("eisixx",29));
+        ts.add(new Student("ddisi4",14));
+        //ts.add(new Student(39));
+        ts.add(new Student("lisi7",27));
+        ts.add(new Student("bbb",2));*/
+        
+        ts.add(new Student("aaa",88));
+        
+        System.out.println(ts.size());
+        
+        String s1 = new String("aaa");
+        String s2 = new String("aaa");
+        System.out.println(s1.hashCode()+"\t"+s2.hashCode());
+    }
+}
+ 
+//同姓名同年龄的学生视为同一个学生。按照学生的年龄排序。
+class Student implements Comparable
+{
+    private int age;
+    private String name;
+    
+    Student(String name,int age)
+    {
+        this.age = age;
+        this.name = name;
+    }
+ 
+    public int compareTo(Object obj)
+    {
+        
+        Student stu = (Student)obj;
+        
+        int num = new Integer(this.age).compareTo(new Integer(stu.age));
+ 
+        return num==0?this.name.compareTo(stu.name):num;
+ 
+        /*
+        if(this.age>stu.age)
+            return 1;
+        if(this.age==stu.age)
+            return this.name.compareTo(stu.name);
+        return -1;
+        */
+        /**/
+        
+    }
+    
+ 
+    public int getAge()
+    {
+        return age;
+    }
+    public String toString()
+    {
+        return name+"::"+age;
+    }
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + age;
+		result = prime * result + ((name == null) ? 0 : name.hashCode());
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Student other = (Student) obj;
+		if (age != other.age)
+			return false;
+		if (name == null) {
+			if (other.name != null)
+				return false;
+		} else if (!name.equals(other.name))
+			return false;
+		return true;
+	}
+    
+    
+    
+}
+
+ 
+

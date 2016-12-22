@@ -1,0 +1,17 @@
+package com.lifeCycle;
+
+import org.springframework.beans.factory.InitializingBean;
+
+public class BeanLifeCycleImpl implements InitializingBean, {
+/*	@Override
+	public void init() {//public abstract
+		System.out.println("Bean Init");
+		
+	}
+	
+	@Override
+	public void destory() {
+		System.out.println("Bean destory");		
+	}*/
+
+}
