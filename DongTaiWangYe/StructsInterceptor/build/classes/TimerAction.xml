@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+	<package name="timer" namespace="/" extends="struts-default">
+	
+   <!--  注册或定义拦截器	 -->
+	<interceptors>
+	<interceptor name="timer" class="interceptor.TimerInterceptor"></interceptor>
+	</interceptors>
+	
+	<action name="*" class="Action.TimerAction"
+		method="{1}">
+		
+	  <result name="timer">/success.jsp</result>
+		
+	  <result name="login">/WEB-INF/JSP/login.jsp</result> 
+		
+		<!-- 为Action显示引用拦截器后，默认的拦截器defaultStack不再生效，需要手工引用 -->
+		<interceptor-ref name="defaultStack"></interceptor-ref>
+		
+		<!-- 引用拦截器 -->
+		<interceptor-ref name="timer"></interceptor-ref>		
+	</action>
+		
+	</package>
+</struts>

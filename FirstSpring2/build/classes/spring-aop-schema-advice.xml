@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:aop="http://www.springframework.org/schema/aop"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans 
+        http://www.springframework.org/schema/beans/spring-beans.xsd  
+        http://www.springframework.org/schema/aop 
+        http://www.springframework.org/schema/aop/spring-aop-4.0.xsd">
+
+	<bean id="moocAspect" class="com.imooc.aop.schema.advice.MoocAspect"></bean>
+	<bean id="aspectBiz" class="com.imooc.aop.schema.advice.biz.AspectBiz"></bean>
+	
+	<aop:config>
+		<aop:aspect id="moocAspectAOP" ref="moocAspect">	
+			
+			<!-- 
+			在介绍Pointcut前，有必要先介绍一下Join Point（连接点）的概念。
+			Join Point指的是程序运行中的某个阶段点，如某个方法调用、异常抛出等。
+            Pointcut是Join Point的集合，它是程序中需要注入Advice的位置的集合，
+                          指明Advice要在什么样的条件下才能被触发。 
+                          
+            Advice是某个连接点所采用的处理逻辑，也就是向连接点注入的代码
+            
+            Advisor是Pointcut和Advice的配置器，
+                         它包括Pointcut和Advice，是将Advice注入程序中Pointcut位置的代码。
+            -->
+		<aop:pointcut expression="execution(* com.imooc.aop.schema.advice.biz.*Biz.*(..))" id="moocPiontcut"/>		
+		<!-- 	 
+		<aop:before method="before" pointcut-ref="moocPiontcut"/>			   
+		<aop:after-returning method="afterReturning" pointcut-ref="moocPiontcut"/>
+		<aop:after-throwing method="afterThrowing" pointcut-ref="moocPiontcut"/>
+		<aop:after method="after" pointcut-ref="moocPiontcut"/>
+		
+	    <aop:around method="around" pointcut-ref="moocPiontcut"/> -->
+	    
+	    <aop:around method="aroundInit" pointcut="execution(* com.imooc.aop.schema.advice.biz.AspectBiz.init(String,int)) and args(bizName,times)"/> 
+		
+		
+	   <aop:declare-parents types-matching="com.imooc.aop.schema.advice.biz.*(+)" 
+							implement-interface="com.imooc.aop.schema.advice.Fit"
+							default-impl="com.imooc.aop.schema.advice.FitImpl"/>
+		</aop:aspect>	
+	</aop:config>
+
+ </beans>

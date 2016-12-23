@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>className属性</title>
+<style type="text/css">
+input {
+	font-size: 26px;
+}
+
+.one {
+	width: 300px;
+	background-color: #CCC;
+}
+
+.two {
+	font-size: 18px;
+	color: #F00;
+}
+</style>
+</head>
+
+<body>
+	<p id="ID" class="one">ClassName, JavaScript,大家好!</p>
+	
+	<form>
+		<input type="button" value="点击更改" onclick="modify()" />
+	</form>
+	
+	<br>	<br>
+	
+	<script type="text/javascript">
+		var mychar = document.getElementById("ID");
+		document.write("p元素Class值为： " + mychar.className + "<br");
+
+		function modify() {
+			mychar.className = "two";
+		}
+	</script>
+
+
+
+</body>
+</html>

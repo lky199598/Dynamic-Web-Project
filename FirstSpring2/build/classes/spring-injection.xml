@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd" >
+        
+        <!-- 投值注入 -->
+        <!-- <bean id="injectionServiceImpl" class="com.ioc.injection.service.InjectionServiceImpl">        
+        <property name="injDao" ref="injectionDAOImpl"></property>
+        </bean> -->
+        
+ <!--        构造器注入 -->
+        <bean id="injectionServiceImpl"  class="com.ioc.injection.service.InjectionServiceImpl">
+        <constructor-arg name="injDao" ref="injectionDAOImpl"></constructor-arg>
+        </bean>
+        
+        
+        <bean id="injectionDAOImpl" class="com.ioc.injection.dao.InjectionDAOImpl">
+        </bean>
+</beans>

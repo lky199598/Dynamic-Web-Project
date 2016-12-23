@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="WebContent/date.jsp"/>
+	<classpathentry kind="lib" path="WebContent/dologin.jsp"/>
+	<classpathentry kind="lib" path="WebContent/forward_action.jsp"/>
+	<classpathentry kind="lib" path="WebContent/include_action.jsp"/>
+	<classpathentry kind="lib" path="WebContent/include.jsp"/>
+	<classpathentry kind="lib" path="WebContent/login_failure.jsp"/>
+	<classpathentry kind="lib" path="WebContent/login_success.jsp"/>
+	<classpathentry kind="lib" path="WebContent/login.jsp"/>
+	<classpathentry kind="lib" path="WebContent/pageContext.jsp"/>
+	<classpathentry kind="lib" path="WebContent/rate.jsp"/>
+	<classpathentry kind="lib" path="WebContent/request.jsp"/>
+	<classpathentry kind="lib" path="WebContent/session_page2.jsp"/>
+	<classpathentry kind="lib" path="WebContent/session.jsp"/>
+	<classpathentry kind="lib" path="WebContent/show_information.jsp"/>
+	<classpathentry kind="lib" path="WebContent/start.jsp"/>
+	<classpathentry kind="lib" path="WebContent/start2.jsp"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
