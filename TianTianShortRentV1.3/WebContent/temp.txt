@@ -1,0 +1,30 @@
+<% 
+		List<user> list=new LinkedList<user>();
+		
+		ActionContext actionContext = ActionContext.getContext();
+		Map sess = actionContext.getSession();
+		
+		JsonParser parse=new JsonParser();
+		JsonArray array=parse.parse(sess.get("user_list").toString()).getAsJsonArray();
+		for(int i=0; i<array.size(); i++){
+			JsonObject subObject=array.get(i).getAsJsonObject();
+			list.add(new user(subObject.get("User_id"+i).toString(), subObject.get("User_name"+i) != null? subObject.get("User_name"+i).toString() : "null",
+					"", subObject.get("User_telephone"+i) != null? subObject.get("User_telephone"+i).toString() : "null", 
+							subObject.get("Use_idcard"+i) != null? subObject.get("Use_idcard"+i).toString() : "null", 
+					subObject.get("User_sex"+i) !=null? subObject.get("User_sex"+i).toString(): "null", 
+					subObject.get("User_birthday"+i) != null? subObject.get("User_birthday"+i).toString() : "null"));
+		}
+		Iterator it=list.iterator();
+		while(it.hasNext()){
+			out.println("----------------------------   <br>");
+			user u=(user)it.next();
+			out.println(u.getUser_id());
+			out.println(u.getUser_name());
+			out.println(u.getUser_sex());
+			out.println(u.getUser_idacard());
+			out.println(u.getUser_telephone());
+			
+			out.println("<br>");
+		}
+		//out.println(session.getAttribute("user_list"));
+	%>

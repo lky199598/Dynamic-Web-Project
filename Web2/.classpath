@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="WebContent/a.jsp"/>
+	<classpathentry kind="lib" path="WebContent/account.jsp"/>
+	<classpathentry kind="lib" path="WebContent/application1.jsp"/>
+	<classpathentry kind="lib" path="WebContent/application2.jsp"/>
+	<classpathentry kind="lib" path="WebContent/application3.jsp"/>
+	<classpathentry kind="lib" path="WebContent/check.jsp"/>
+	<classpathentry kind="lib" path="WebContent/date.jsp"/>
+	<classpathentry kind="lib" path="WebContent/login_forward.jsp"/>
+	<classpathentry kind="lib" path="WebContent/login11.jsp"/>
+	<classpathentry kind="lib" path="WebContent/loginCheck.jsp"/>
+	<classpathentry kind="lib" path="WebContent/neilianshi、.html"/>
+	<classpathentry kind="lib" path="WebContent/neilianshi.html"/>
+	<classpathentry kind="lib" path="WebContent/qianrushi.html"/>
+	<classpathentry kind="lib" path="WebContent/request2.jsp"/>
+	<classpathentry kind="lib" path="WebContent/requestCheck.jsp"/>
+	<classpathentry kind="lib" path="WebContent/shop.jsp"/>
+	<classpathentry kind="lib" path="WebContent/shopCheck.jsp"/>
+	<classpathentry kind="lib" path="WebContent/show.jsp"/>
+	<classpathentry kind="lib" path="WebContent/success.jsp"/>
+	<classpathentry kind="lib" path="WebContent/wailianshi.html"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

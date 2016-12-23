@@ -1,0 +1,72 @@
+<!-- <html>
+<head>
+  <meta charset = "utf-8">
+<script type="text/javascript">
+function show()
+{
+var tab = document.getElementById("test") ;
+//表格行数
+var rows = tab.rows.length ;
+//表格列数
+var cells = tab.rows.item(0).cells.length ;
+alert("行数"+rows+"列数"+cells);
+}
+</script>
+</head>
+<body>
+<table id="test" border="1">
+<tr>
+<td> fsfsdfsd</td><td>nbsp;</td>
+</tr>
+<tr>
+<td> fsfsdfsdf</td><td>nbsp;</td>
+</tr>
+</table>
+<input type="button" onclick="show();"/>
+</body>
+</html> -->
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset = "utf-8">
+	<title>house  Details</title>
+	<style type="text/css">
+	.picture 
+	{
+		margin-top: 50px;
+		margin-left: 50px;
+		position: absolute;
+	}
+	.picture img
+	{
+		width: 400px;
+		height: 400px;
+
+	} 
+	.informain
+	{
+		margin-left: 500px;
+		margin-top:150px;
+		font-size:24px;
+	}
+	</style>
+</head>
+
+<body>
+<div class = "picture">
+		<img src="images/main_picture/s.jpg" alt="picture">
+	</div>
+
+	<div class = "informain">
+		<p>房屋名：<%=houseDet.get(3) %></p>
+		<p>日价格：<%=houseDet.get(2) %></p>
+		<p>房东电话：<%=houseDet.get(1) %></p>
+		<p>地址: <%=houseDet.get(6)%></p>
+		<p>描述：<%=houseDet.get(0) %></p>
+		<p>备注：<%=houseDet.get(4)==null?"无":houseDet.get(4)%></p>
+		<p>总价: <%=total_price%></p>
+	</div>
+</body>
+</html>
