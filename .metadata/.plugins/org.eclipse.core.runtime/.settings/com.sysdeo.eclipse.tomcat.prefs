@@ -1,0 +1,11 @@
+configMode=serverFile
+contextsDir=F\:\\apache-tomcat-7.0.63\\conf\\Catalina\\localhost
+eclipse.preferences.version=1
+fixTomcatHomeBug=fixed
+managerUrl=http\://localhost\:8080/manager
+projectsInSourcePath=ServletForm;Structs2HibernateStudent;StrutsUploadAndDownload;StrutsUploadAndDownload1;UploadAndDownload;
+tomcatBase=F\:\\apache-tomcat-7.0.63
+tomcatConfigFile=F\:\\apache-tomcat-7.0.63\\conf\\server.xml
+tomcatDir=F\:\\apache-tomcat-7.0.63
+tomcatJRE=1482470677676
+tomcatVersion=tomcatV7

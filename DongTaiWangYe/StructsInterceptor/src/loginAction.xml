@@ -14,7 +14,7 @@
 			<!-- 自定义拦截器栈loginResultStack,组合了defaultStack和loginResult -->
 			
 			<interceptor-stack name="loginResultStack">
-			<interceptor-ref name="defaultStack"></interceptor-ref> 
+			    <interceptor-ref name="defaultStack"></interceptor-ref> 
 				<interceptor-ref name="loginResult"></interceptor-ref>
 			</interceptor-stack>
 		</interceptors>

@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="43" version="2.0">
+<workbench progressCount="87" version="2.0">
 <workbenchAdvisor/>
-<window height="728" width="1024" x="100" y="0">
+<window height="788" maximized="true" width="1298" x="16" y="130">
 <fastViewData fastViewLocation="1024"/>
-<intro standby="false"/>
 <perspectiveBar>
 <itemSize x="160"/>
 </perspectiveBar>
@@ -11,28 +10,70 @@
 <coolItem id="group.file" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="124" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="com_sysdeo_eclipse_tomcat_actionSet" itemType="typeToolBarContribution" x="84" y="22"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="135" y="22"/>
 <coolItem id="org.eclipse.jst.j2ee.J2eeMainActionSet" itemType="typeToolBarContribution" x="95" y="22"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="101" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="130" y="22"/>
 <coolItem id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet" itemType="typeToolBarContribution" x="38" y="22"/>
 <coolItem id="org.eclipse.wst.ws.explorer.explorer" itemType="typeToolBarContribution" x="38" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="61" y="22"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="198" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.jdt.ui.PropertiesFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jst.jsp.core.jspsource.source" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
-<page focus="true" label="Workspace - Java EE">
+<page aggregateWorkingSetId="Aggregate for window 1482565780332" focus="true" label="Workspace - Java EE">
 <editors>
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+</presentation>
 </folder>
 </info>
 </editorArea>
+<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="web.xml" partName="web.xml" path="D:/CollegeShopping/CollegeShopping/WebContent/WEB-INF/web.xml" title="web.xml" tooltip="CollegeShopping/WebContent/WEB-INF/web.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CollegeShopping/WebContent/WEB-INF/web.xml"/>
+</editor>
+<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="index.jsp" partName="index.jsp" path="D:/CollegeShopping/CollegeShopping/WebContent/index.jsp" title="index.jsp" tooltip="CollegeShopping/WebContent/index.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CollegeShopping/WebContent/index.jsp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="305" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="tree.jsp" partName="tree.jsp" path="D:/CollegeShopping/CollegeShopping/WebContent/tree.jsp" title="tree.jsp" tooltip="CollegeShopping/WebContent/tree.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CollegeShopping/WebContent/tree.jsp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="268" selectionTopPixel="2904"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jst.jsp.core.jspsource.source" name="UsersLogin.jsp" partName="UsersLogin.jsp" path="F:/DynamicWebProject/Structs2HibernateStudent/WebContent/users/UsersLogin.jsp" title="UsersLogin.jsp" tooltip="Structs2HibernateStudent/WebContent/users/UsersLogin.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Structs2HibernateStudent/WebContent/users/UsersLogin.jsp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2261" selectionTopPixel="3216"/>
+</editor>
+<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="Students_modify.jsp" partName="Students_modify.jsp" path="F:/DynamicWebProject/Structs2HibernateStudent/WebContent/students/Students_modify.jsp" title="Students_modify.jsp" tooltip="Structs2HibernateStudent/WebContent/students/Students_modify.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Structs2HibernateStudent/WebContent/students/Students_modify.jsp"/>
+<editorState selectionHorizontalPixel="409" selectionLength="8" selectionOffset="3206" selectionTopPixel="3366"/>
+</editor>
+<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="Students_query_success.jsp" partName="Students_query_success.jsp" path="F:/DynamicWebProject/Structs2HibernateStudent/WebContent/students/Students_query_success.jsp" title="Students_query_success.jsp" tooltip="Structs2HibernateStudent/WebContent/students/Students_query_success.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Structs2HibernateStudent/WebContent/students/Students_query_success.jsp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2954" selectionTopPixel="3168"/>
+</editor>
+<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="test.jsp" partName="test.jsp" path="F:/DynamicWebProject/Structs2HibernateStudent/WebContent/test.jsp" title="test.jsp" tooltip="Structs2HibernateStudent/WebContent/test.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Structs2HibernateStudent/WebContent/test.jsp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="344" selectionTopPixel="0"/>
+</editor>
 </editors>
 <views>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
@@ -49,21 +90,20 @@
 </viewState>
 </view>
 <view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" partName="Snippets"/>
-<view id="org.eclipse.ui.views.PropertySheet" partName="Properties"/>
-<view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" partName="Data Source Explorer"/>
-<view id="org.eclipse.ui.internal.introview" partName="Welcome">
-<viewState>
-<presentation currentPage="root" restore="true"/>
-<standbyPart/>
-</viewState>
-</view>
-<view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List"/>
-<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
 <viewState/>
 </view>
-<view id="org.eclipse.wst.server.ui.ServersView" partName="Servers"/>
+<view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" partName="Data Source Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" showCategories="true"/>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.wst.server.ui.ServersView" partName="Servers">
+<viewState CommonNavigator.LINKING_ENABLED="0"/>
+</view>
 </views>
-<perspectives activePart="org.eclipse.ui.internal.introview" activePerspective="org.eclipse.jst.j2ee.J2EEPerspective">
+<perspectives activePart="org.eclipse.jst.jsp.core.jspsource.source" activePerspective="org.eclipse.jst.j2ee.J2EEPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jst.j2ee.internal.perspective.J2EEPerspective" id="org.eclipse.jst.j2ee.J2EEPerspective" label="Java EE"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
@@ -89,6 +129,7 @@
 <alwaysOnActionSet id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
 <alwaysOnActionSet id="org.eclipse.wst.ws.explorer.explorer"/>
+<alwaysOnActionSet id="com_sysdeo_eclipse_tomcat_actionSet"/>
 <show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
 <show_view_action id="org.eclipse.wst.server.ui.ServersView"/>
 <show_view_action id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator"/>
@@ -123,15 +164,13 @@
 <perspective_action id="org.eclipse.wst.web.ui.webDevPerspective"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
-<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
 <view id="org.eclipse.ui.views.AllMarkersView"/>
 <view id="org.eclipse.ui.views.PropertySheet"/>
 <view id="org.eclipse.wst.server.ui.ServersView"/>
 <view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator"/>
 <view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView"/>
-<view id="org.eclipse.ui.views.ContentOutline"/>
-<view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
-<view id="org.eclipse.ui.internal.introview"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
 <fastViewBars/>
 <layout>
 <mainWindow>
@@ -146,27 +185,24 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@250a58e8" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="topLeft">
-<folder activePageID="org.eclipse.ui.internal.introview" appearance="2" expanded="1">
-<page content="org.eclipse.ui.internal.introview" label="Welcome"/>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="topLeft">
+<folder appearance="2" expanded="2">
 <page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="250" ratioRight="750" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottomRight" ratio="0.6985173" ratioLeft="424" ratioRight="183" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.AllMarkersView" appearance="2" expanded="2">
+<info part="org.eclipse.ui.editorss" ratio="0.19483395" ratioLeft="264" ratioRight="1091" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottomRight" ratio="0.81098545" ratioLeft="502" ratioRight="117" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.AllMarkersView" label="Markers"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
 <page content="org.eclipse.wst.server.ui.ServersView" label="Servers"/>
 <page content="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" label="Data Source Explorer"/>
 <page content="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" label="Snippets"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
-<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
@@ -176,17 +212,15 @@
 <part id="2"/>
 <part id="3"/>
 <part id="4"/>
+<part id="5"/>
 </presentation>
 </folder>
 </info>
 <info folder="true" part="topRight" ratio="0.7" ratioLeft="525" ratioRight="225" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
-<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="Task List"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-</presentation>
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </mainWindow>
@@ -194,18 +228,248 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/StrutsUploadAndDownload1/WebContent/jsp/03.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/UploadAndDownload/WebContent/index.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/StrutsUploadAndDownload1/WebContent/index.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/Structs2HibernateStudent/WebContent/index.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/StrutsUploadAndDownload1/WebContent/index.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/StrutsUploadAndDownload1/WebContent/index1.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/ServletForm/WebContent/register.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/Structs2HibernateStudent/WebContent/tree.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/StrutsUploadAndDownload/WebContent/index.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/StrutsUploadAndDownload1/WebContent/jsp/03.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/StrutsUploadAndDownload/WebContent/jsp/03.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/StrutsUploadAndDownload/WebContent/index.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/ServletForm/WebContent/register.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/CollegeShopping/WebContent/jsp/upload.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/CollegeShopping/WebContent/WEB-INF/web.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/CollegeShopping/WebContent/index.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/CollegeShopping/WebContent/tree.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/Structs2HibernateStudent/WebContent/users/Users_login.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/Structs2HibernateStudent/WebContent/users/UsersLogin.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/Structs2HibernateStudent/WebContent/students/Students_query_success.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/Structs2HibernateStudent/WebContent/students/Students_modify.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/Structs2HibernateStudent/WebContent/test.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/StructsInterceptor/WebContent/index.jsp"/>
+</editors>
+<item historyLabel="03.jsp" index="0">
+<position info="not_deleted" x="2189" y="0"/>
+</item>
+<item historyLabel="index.jsp" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="index.jsp" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="index.jsp" index="1">
+<position info="not_deleted" x="822" y="0"/>
+</item>
+<item historyLabel="03.jsp" index="0">
+<position info="not_deleted" x="2189" y="0"/>
+</item>
+<item historyLabel="index.jsp" index="4">
+<position info="not_deleted" x="337" y="0"/>
+</item>
+<item historyLabel="index1.jsp" index="5">
+<position info="not_deleted" x="222" y="0"/>
+</item>
+<item historyLabel="index.jsp" index="4">
+<position info="not_deleted" x="776" y="0"/>
+</item>
+<item historyLabel="index1.jsp" index="5">
+<position info="not_deleted" x="764" y="0"/>
+</item>
+<item historyLabel="register.jsp" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="index.jsp" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="tree.jsp" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="index.jsp" index="3">
+<position/>
+</item>
+<item historyLabel="tree.jsp" index="7">
+<position info="not_deleted" x="268" y="0"/>
+</item>
+<item historyLabel="index.jsp" index="3">
+<position/>
+</item>
+<item historyLabel="register.jsp" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="index1.jsp" index="5">
+<position info="not_deleted" x="764" y="0"/>
+</item>
+<item historyLabel="index.jsp" index="4">
+<position info="not_deleted" x="776" y="0"/>
+</item>
+<item historyLabel="03.jsp" index="0">
+<position info="not_deleted" x="2189" y="0"/>
+</item>
+<item historyLabel="index.jsp" index="4">
+<position info="not_deleted" x="309" y="0"/>
+</item>
+<item historyLabel="index1.jsp" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="index.jsp" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="03.jsp" index="9">
+<position info="not_deleted" x="2189" y="0"/>
+</item>
+<item historyLabel="03.jsp" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="index.jsp" index="11">
+<position info="not_deleted" x="299" y="0"/>
+</item>
+<item historyLabel="03.jsp" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="index.jsp" index="11">
+<position info="not_deleted" x="766" y="0"/>
+</item>
+<item historyLabel="register.jsp" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="upload.jsp" index="13">
+<position info="not_deleted" x="542" y="0"/>
+</item>
+<item historyLabel="web.xml" index="14">
+<position info="not_deleted" x="347" y="0"/>
+</item>
+<item historyLabel="index.jsp" index="15">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="tree.jsp" index="16">
+<position info="not_deleted" x="268" y="0"/>
+</item>
+<item historyLabel="index.jsp" index="15">
+<position/>
+</item>
+<item historyLabel="Users_login.jsp" index="17">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="UsersLogin.jsp" index="18">
+<position info="not_deleted" x="6152" y="0"/>
+</item>
+<item historyLabel="Students_query_success.jsp" index="19">
+<position info="not_deleted" x="312" y="0"/>
+</item>
+<item historyLabel="UsersLogin.jsp" index="18">
+<position info="not_deleted" x="6152" y="0"/>
+</item>
+<item historyLabel="Students_modify.jsp" index="20">
+<position info="not_deleted" x="3133" y="0"/>
+</item>
+<item historyLabel="UsersLogin.jsp" index="18">
+<position info="not_deleted" x="6045" y="0"/>
+</item>
+<item historyLabel="Students_modify.jsp" index="20">
+<position info="not_deleted" x="3159" y="133"/>
+</item>
+<item historyLabel="UsersLogin.jsp" index="18">
+<position info="not_deleted" x="5556" y="0"/>
+</item>
+<item historyLabel="Students_modify.jsp" index="20">
+<position info="not_deleted" x="3149" y="0"/>
+</item>
+<item historyLabel="Students_query_success.jsp" index="19">
+<position info="not_deleted" x="2954" y="0"/>
+</item>
+<item historyLabel="UsersLogin.jsp" index="18">
+<position info="not_deleted" x="5671" y="0"/>
+</item>
+<item historyLabel="test.jsp" index="21">
+<position info="not_deleted" x="362" y="0"/>
+</item>
+<item historyLabel="index.jsp" index="22">
+<position/>
+</item>
+<item historyLabel="test.jsp" index="21">
+<position/>
+</item>
+<item historyLabel="Students_query_success.jsp" index="19">
+<position info="not_deleted" x="2954" y="0"/>
+</item>
+<item historyLabel="Students_modify.jsp" index="20">
+<position info="not_deleted" x="3206" y="8"/>
+</item>
+<item active="true" historyLabel="UsersLogin.jsp" index="18">
+<position info="not_deleted" x="5671" y="0"/>
+</item>
+</navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="topLeft"/>
+</trimArea>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+<trimItem IMemento.internal.id="org.eclipse.mylyn.tasks.ui.trim.container"/>
+</trimArea>
 <trimArea IMemento.internal.id="1024">
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="bottomRight"/>
 </trimArea>
 </trimLayout>
 </window>
-<mruList/>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="a.png" tooltip="Structs2HibernateStudent/WebContent/images/a.png">
+<persistable path="/Structs2HibernateStudent/WebContent/images/a.png"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="admin.png" tooltip="Structs2HibernateStudent/WebContent/images/admin.png">
+<persistable path="/Structs2HibernateStudent/WebContent/images/admin.png"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="admin11.png" tooltip="Structs2HibernateStudent/WebContent/images/admin11.png">
+<persistable path="/Structs2HibernateStudent/WebContent/images/admin11.png"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="admin1.png" tooltip="Structs2HibernateStudent/WebContent/images/admin1.png">
+<persistable path="/Structs2HibernateStudent/WebContent/images/admin1.png"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="index.jsp" tooltip="StructsInterceptor/WebContent/index.jsp">
+<persistable path="/StructsInterceptor/WebContent/index.jsp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="test.jsp" tooltip="Structs2HibernateStudent/WebContent/test.jsp">
+<persistable path="/Structs2HibernateStudent/WebContent/test.jsp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="Students_query_success.jsp" tooltip="Structs2HibernateStudent/WebContent/students/Students_query_success.jsp">
+<persistable path="/Structs2HibernateStudent/WebContent/students/Students_query_success.jsp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="Students_modify.jsp" tooltip="Structs2HibernateStudent/WebContent/students/Students_modify.jsp">
+<persistable path="/Structs2HibernateStudent/WebContent/students/Students_modify.jsp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="Users_login.jsp" tooltip="Structs2HibernateStudent/WebContent/users/Users_login.jsp">
+<persistable path="/Structs2HibernateStudent/WebContent/users/Users_login.jsp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="tree.jsp" tooltip="CollegeShopping/WebContent/tree.jsp">
+<persistable path="/CollegeShopping/WebContent/tree.jsp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="index.jsp" tooltip="CollegeShopping/WebContent/index.jsp">
+<persistable path="/CollegeShopping/WebContent/index.jsp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="web.xml" tooltip="CollegeShopping/WebContent/WEB-INF/web.xml">
+<persistable path="/CollegeShopping/WebContent/WEB-INF/web.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="upload.jsp" tooltip="CollegeShopping/WebContent/jsp/upload.jsp">
+<persistable path="/CollegeShopping/WebContent/jsp/upload.jsp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="register.jsp" tooltip="ServletForm/WebContent/register.jsp">
+<persistable path="/ServletForm/WebContent/register.jsp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="03.jsp" tooltip="StrutsUploadAndDownload/WebContent/jsp/03.jsp">
+<persistable path="/StrutsUploadAndDownload/WebContent/jsp/03.jsp"/>
+</file>
+</mruList>
 </workbench>
