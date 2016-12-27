@@ -86,7 +86,6 @@ body{
 	font-size:14px;
 	border:2px solid solid;
 	border-right-style:groove;
-    color:#000000;
 }
 .menu_item{
 	display: list-item;
