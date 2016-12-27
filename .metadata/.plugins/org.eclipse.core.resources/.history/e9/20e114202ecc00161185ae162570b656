@@ -96,6 +96,7 @@ body{
 	border-right:2px solid #F6F6F6;
 	border-right-style:groove;
 	cursor:pointer;
+	color:#000000 
 }
 .on{
 	display: list-item;

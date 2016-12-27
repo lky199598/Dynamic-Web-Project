@@ -76,7 +76,7 @@ body{
     border-radius: 8px;
     background-image: -moz-linear-gradient(top,#EBEBEB, #BFBFBF);
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #EBEBEB),color-stop(1, #BFBFBF));
- 
+     color:#000000;
 }
 #menu_items{
 	list-style:none;
@@ -87,7 +87,7 @@ body{
 	font-size:14px;
 	border:2px solid solid;
 	border-right-style:groove;
-  
+    
 }
 .menu_item{
 	display: list-item;
