@@ -1,0 +1,7 @@
+ALTER TABLE `ecs_order_info` ADD `supplier_id` INT( 10 )  NOT NULL  DEFAULT 0;
+ALTER TABLE `ecs_order_info` ADD `froms` CHAR( 10 ) NOT NULL DEFAULT 'pc' COMMENT 'pc:电脑,mobile:手机,app:应用';
+
+
+
+
+注：如果是在简洁模板上升级后台，只能在数据库里面执行SQL。
