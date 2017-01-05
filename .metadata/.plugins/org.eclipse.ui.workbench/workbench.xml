@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="74" version="2.0">
+<workbench progressCount="75" version="2.0">
 <workbenchAdvisor/>
 <window height="788" maximized="true" width="1298" x="16" y="130">
 <fastViewData fastViewLocation="1024"/>
@@ -18,7 +18,7 @@
 <coolItem id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet" itemType="typeToolBarContribution" x="38" y="22"/>
 <coolItem id="org.eclipse.wst.ws.explorer.explorer" itemType="typeToolBarContribution" x="38" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="198" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
@@ -39,39 +39,44 @@
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="3"/>
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
-<part id="3"/>
 <part id="4"/>
 <part id="5"/>
+<part id="6"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="SellerCenter.jsp" partName="SellerCenter.jsp" path="D:/CollegeShopping/CollegeShopping/WebContent/jsp/users/SellerCenter.jsp" title="SellerCenter.jsp" tooltip="CollegeShopping/WebContent/jsp/users/SellerCenter.jsp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CollegeShopping/WebContent/jsp/users/SellerCenter.jsp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2492" selectionTopPixel="792"/>
+<editor activePart="true" focus="true" id="org.eclipse.jst.jsp.core.jspsource.source" name="taoBao.jsp" partName="taoBao.jsp" path="F:/DynamicWebProject/TaoBao/WebContent/taoBao.jsp" title="taoBao.jsp" tooltip="TaoBao/WebContent/taoBao.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TaoBao/WebContent/taoBao.jsp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="80961" selectionTopPixel="46035"/>
 </editor>
-<editor id="org.eclipse.wst.css.core.csssource.source" name="index.css" partName="index.css" path="D:/CollegeShopping/CollegeShopping/WebContent/css/index.css" title="index.css" tooltip="CollegeShopping/WebContent/css/index.css" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CollegeShopping/WebContent/css/index.css"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2620" selectionTopPixel="3912"/>
+<editor id="org.eclipse.wst.css.core.csssource.source" name="font-awesome.min.css" partName="font-awesome.min.css" path="F:/DynamicWebProject/TaoBao/WebContent/css/font-awesome.min.css" title="font-awesome.min.css" tooltip="TaoBao/WebContent/css/font-awesome.min.css" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TaoBao/WebContent/css/font-awesome.min.css"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="UsersLogin.jsp" partName="UsersLogin.jsp" path="D:/CollegeShopping/CollegeShopping/WebContent/jsp/users/UsersLogin.jsp" title="UsersLogin.jsp" tooltip="CollegeShopping/WebContent/jsp/users/UsersLogin.jsp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CollegeShopping/WebContent/jsp/users/UsersLogin.jsp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="132" selectionOffset="2158" selectionTopPixel="3287"/>
+<editor id="org.eclipse.wst.css.core.csssource.source" name="reset.css" partName="reset.css" path="F:/DynamicWebProject/TaoBao/WebContent/css/reset.css" title="reset.css" tooltip="TaoBao/WebContent/css/reset.css" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TaoBao/WebContent/css/reset.css"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="306" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.wst.css.core.csssource.source" name="index.css" partName="index.css" path="F:/DynamicWebProject/Structs2HibernateStudent/WebContent/css/index.css" title="index.css" tooltip="Structs2HibernateStudent/WebContent/css/index.css" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Structs2HibernateStudent/WebContent/css/index.css"/>
-<editorState selectionHorizontalPixel="0" selectionLength="195" selectionOffset="2257" selectionTopPixel="3465"/>
+<editor id="org.eclipse.wst.css.core.csssource.source" name="style.css" partName="style.css" path="F:/DynamicWebProject/TaoBao/WebContent/css/style.css" title="style.css" tooltip="TaoBao/WebContent/css/style.css" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TaoBao/WebContent/css/style.css"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="17463" selectionTopPixel="32357"/>
 </editor>
-<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="Students_query_success.jsp" partName="Students_query_success.jsp" path="D:/CollegeShopping/CollegeShopping/WebContent/jsp/students/Students_query_success.jsp" title="Students_query_success.jsp" tooltip="CollegeShopping/WebContent/jsp/students/Students_query_success.jsp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CollegeShopping/WebContent/jsp/students/Students_query_success.jsp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1036" selectionTopPixel="891"/>
+<editor id="org.eclipse.wst.html.core.htmlsource.source" name="index.html" partName="index.html" path="F:/DynamicWebProject/aaafjdj/WebContent/index.html" title="index.html" tooltip="aaafjdj/WebContent/index.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/aaafjdj/WebContent/index.html"/>
+<editorState selectionHorizontalPixel="0" selectionLength="257" selectionOffset="4811" selectionTopPixel="2904"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.wst.html.core.htmlsource.source" name="index.html" partName="index.html" path="F:/DynamicWebProject/TestShopping/WebContent/index.html" title="index.html" tooltip="TestShopping/WebContent/index.html" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TestShopping/WebContent/index.html"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="7406" selectionTopPixel="4752"/>
+<editor id="org.eclipse.wst.css.core.csssource.source" name="style.css" partName="style.css" path="F:/DynamicWebProject/aaafjdj/WebContent/css/style.css" title="style.css" tooltip="aaafjdj/WebContent/css/style.css" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/aaafjdj/WebContent/css/style.css"/>
+<editorState selectionHorizontalPixel="0" selectionLength="18" selectionOffset="3300" selectionTopPixel="5664"/>
+</editor>
+<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="NewFile.jsp" partName="NewFile.jsp" path="F:/DynamicWebProject/aaafjdj/WebContent/NewFile.jsp" title="NewFile.jsp" tooltip="aaafjdj/WebContent/NewFile.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/aaafjdj/WebContent/NewFile.jsp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="434" selectionOffset="282473" selectionTopPixel="163779"/>
 </editor>
 </editors>
 <views>
@@ -102,8 +107,8 @@
 <viewState CommonNavigator.LINKING_ENABLED="0"/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.wst.html.core.htmlsource.source" activePerspective="org.eclipse.jst.j2ee.J2EEPerspective">
-<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<perspectives activePart="org.eclipse.jst.jsp.core.jspsource.source" activePerspective="org.eclipse.jst.j2ee.J2EEPerspective">
+<perspective editorAreaTrimState="1" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jst.j2ee.internal.perspective.J2EEPerspective" id="org.eclipse.jst.j2ee.J2EEPerspective" label="Java EE"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
@@ -163,25 +168,32 @@
 <perspective_action id="org.eclipse.wst.web.ui.webDevPerspective"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
-<view id="org.eclipse.ui.views.AllMarkersView"/>
-<view id="org.eclipse.ui.views.PropertySheet"/>
-<view id="org.eclipse.wst.server.ui.ServersView"/>
-<view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator"/>
-<view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView"/>
-<view id="org.eclipse.ui.console.ConsoleView"/>
-<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
-<fastViewBars/>
+<fastViewBars>
+<fastViewBar fastViewLocation="16384" id="topLeft" orientation="512" selectedTabId="org.eclipse.ui.navigator.ProjectExplorer" style="1">
+<fastViews>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="1024" id="bottomRight" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="1">
+<fastViews>
+<view id="org.eclipse.ui.views.AllMarkersView" ratio="0.3"/>
+<view id="org.eclipse.ui.views.PropertySheet" ratio="0.3"/>
+<view id="org.eclipse.wst.server.ui.ServersView" ratio="0.29903537"/>
+<view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" ratio="0.3"/>
+<view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" ratio="0.3"/>
+<view id="org.eclipse.ui.console.ConsoleView" ratio="0.29903537"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
 <layout>
 <mainWindow>
 <info folder="true" part="topLeft">
-<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
-<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.PackagesView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="topLeft">
@@ -192,27 +204,20 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.22804429" ratioLeft="309" ratioRight="1046" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottomRight" ratio="0.47819063" ratioLeft="296" ratioRight="323" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.wst.server.ui.ServersView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.AllMarkersView" label="Markers"/>
-<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
-<page content="org.eclipse.wst.server.ui.ServersView" label="Servers"/>
-<page content="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" label="Data Source Explorer"/>
-<page content="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" label="Snippets"/>
-<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<info folder="true" part="bottomRight" ratio="0.9531502" ratioLeft="590" ratioRight="29" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.AllMarkersView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
+<page content="org.eclipse.wst.server.ui.ServersView" label="LabelNotFound"/>
+<page content="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
-<part id="5"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info folder="true" part="topRight" ratio="0.7" ratioLeft="525" ratioRight="225" relationship="2" relative="org.eclipse.ui.editorss">
@@ -229,162 +234,160 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" path="/CollegeShopping/WebContent/css/index.css"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/CollegeShopping/WebContent/jsp/users/UsersLogin.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/CollegeShopping/WebContent/jsp/users/SellerCenter.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" path="/Structs2HibernateStudent/WebContent/css/index.css"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/CollegeShopping/WebContent/jsp/students/Students_query_success.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" path="/TestShopping/WebContent/index.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/TaoBao/WebContent/taoBao.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" path="/TaoBao/WebContent/css/style.css"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/aaafjdj/WebContent/NewFile.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" path="/aaafjdj/WebContent/css/style.css"/>
 </editors>
-<item historyLabel="index.css" index="0">
-<position/>
+<item historyLabel="taoBao.jsp" index="0">
+<position info="not_deleted" x="78378" y="0"/>
 </item>
-<item historyLabel="SellerCenter.jsp" index="2">
-<position info="not_deleted" x="2590" y="0"/>
+<item historyLabel="style.css" index="1">
+<position info="not_deleted" x="14994" y="0"/>
 </item>
-<item historyLabel="index.css" index="0">
-<position info="not_deleted" x="2503" y="0"/>
+<item historyLabel="taoBao.jsp" index="0">
+<position info="not_deleted" x="78378" y="0"/>
 </item>
-<item historyLabel="UsersLogin.jsp" index="1">
-<position info="not_deleted" x="2158" y="132"/>
+<item historyLabel="style.css" index="1">
+<position info="not_deleted" x="17303" y="0"/>
 </item>
-<item historyLabel="index.css" index="0">
-<position info="not_deleted" x="2503" y="0"/>
+<item historyLabel="taoBao.jsp" index="0">
+<position info="not_deleted" x="75161" y="0"/>
 </item>
-<item historyLabel="SellerCenter.jsp" index="2">
-<position info="not_deleted" x="2590" y="0"/>
+<item historyLabel="style.css" index="1">
+<position info="not_deleted" x="14315" y="0"/>
 </item>
-<item historyLabel="index.css" index="0">
-<position info="not_deleted" x="2567" y="0"/>
+<item historyLabel="taoBao.jsp" index="0">
+<position info="not_deleted" x="75181" y="0"/>
 </item>
-<item historyLabel="SellerCenter.jsp" index="2">
-<position info="not_deleted" x="2590" y="0"/>
+<item historyLabel="style.css" index="1">
+<position info="not_deleted" x="14339" y="0"/>
 </item>
-<item historyLabel="index.css" index="0">
-<position info="not_deleted" x="2567" y="0"/>
+<item historyLabel="taoBao.jsp" index="0">
+<position info="not_deleted" x="75253" y="0"/>
 </item>
-<item historyLabel="SellerCenter.jsp" index="2">
-<position info="not_deleted" x="2590" y="0"/>
+<item historyLabel="style.css" index="1">
+<position info="not_deleted" x="14315" y="0"/>
 </item>
-<item historyLabel="index.css" index="0">
-<position/>
+<item historyLabel="taoBao.jsp" index="0">
+<position info="not_deleted" x="78406" y="0"/>
 </item>
-<item historyLabel="SellerCenter.jsp" index="2">
-<position info="not_deleted" x="278" y="0"/>
+<item historyLabel="style.css" index="1">
+<position info="not_deleted" x="19094" y="0"/>
 </item>
-<item historyLabel="index.css" index="0">
-<position/>
+<item historyLabel="taoBao.jsp" index="0">
+<position info="not_deleted" x="78406" y="0"/>
 </item>
-<item historyLabel="SellerCenter.jsp" index="2">
-<position info="not_deleted" x="613" y="0"/>
+<item historyLabel="style.css" index="1">
+<position info="not_deleted" x="17242" y="0"/>
 </item>
-<item historyLabel="index.css" index="0">
-<position/>
+<item historyLabel="taoBao.jsp" index="0">
+<position info="not_deleted" x="78534" y="0"/>
 </item>
-<item historyLabel="SellerCenter.jsp" index="2">
-<position info="not_deleted" x="613" y="0"/>
+<item historyLabel="style.css" index="1">
+<position info="not_deleted" x="17242" y="0"/>
 </item>
-<item historyLabel="UsersLogin.jsp" index="1">
-<position info="not_deleted" x="2158" y="132"/>
+<item historyLabel="style.css" index="3">
+<position info="not_deleted" x="3300" y="18"/>
 </item>
-<item historyLabel="index.css" index="0">
-<position/>
+<item historyLabel="style.css" index="1">
+<position info="not_deleted" x="17463" y="0"/>
 </item>
-<item historyLabel="SellerCenter.jsp" index="2">
-<position info="not_deleted" x="613" y="0"/>
+<item historyLabel="taoBao.jsp" index="0">
+<position info="not_deleted" x="75357" y="0"/>
 </item>
-<item historyLabel="index.css" index="0">
-<position info="not_deleted" x="2078" y="0"/>
+<item historyLabel="style.css" index="1">
+<position info="not_deleted" x="15209" y="0"/>
 </item>
-<item historyLabel="SellerCenter.jsp" index="2">
-<position info="not_deleted" x="2599" y="0"/>
+<item historyLabel="taoBao.jsp" index="0">
+<position info="not_deleted" x="78413" y="0"/>
 </item>
-<item historyLabel="index.css" index="0">
-<position info="not_deleted" x="2078" y="0"/>
+<item historyLabel="style.css" index="1">
+<position info="not_deleted" x="17394" y="0"/>
 </item>
-<item historyLabel="SellerCenter.jsp" index="2">
-<position info="not_deleted" x="2599" y="0"/>
+<item historyLabel="taoBao.jsp" index="0">
+<position info="not_deleted" x="78413" y="0"/>
 </item>
-<item historyLabel="index.css" index="0">
-<position info="not_deleted" x="2230" y="0"/>
+<item historyLabel="style.css" index="1">
+<position info="not_deleted" x="17391" y="0"/>
 </item>
-<item historyLabel="SellerCenter.jsp" index="2">
-<position info="not_deleted" x="2599" y="0"/>
+<item historyLabel="taoBao.jsp" index="0">
+<position info="not_deleted" x="78357" y="0"/>
 </item>
-<item historyLabel="index.css" index="0">
-<position info="not_deleted" x="1405" y="0"/>
+<item historyLabel="style.css" index="1">
+<position info="not_deleted" x="28573" y="0"/>
 </item>
-<item historyLabel="SellerCenter.jsp" index="2">
-<position info="not_deleted" x="2081" y="0"/>
+<item historyLabel="taoBao.jsp" index="0">
+<position info="not_deleted" x="78659" y="0"/>
 </item>
-<item historyLabel="index.css" index="0">
-<position info="not_deleted" x="1405" y="0"/>
+<item historyLabel="style.css" index="1">
+<position info="not_deleted" x="17349" y="0"/>
 </item>
-<item historyLabel="SellerCenter.jsp" index="2">
-<position info="not_deleted" x="916" y="0"/>
+<item historyLabel="taoBao.jsp" index="0">
+<position info="not_deleted" x="75316" y="0"/>
 </item>
-<item historyLabel="index.css" index="0">
-<position info="not_deleted" x="1285" y="0"/>
+<item historyLabel="style.css" index="1">
+<position info="not_deleted" x="15162" y="0"/>
 </item>
-<item historyLabel="SellerCenter.jsp" index="2">
-<position info="not_deleted" x="916" y="0"/>
+<item historyLabel="taoBao.jsp" index="0">
+<position info="not_deleted" x="75189" y="0"/>
 </item>
-<item historyLabel="index.css" index="0">
-<position info="not_deleted" x="2620" y="0"/>
+<item historyLabel="style.css" index="1">
+<position info="not_deleted" x="15162" y="0"/>
 </item>
-<item historyLabel="SellerCenter.jsp" index="2">
-<position info="not_deleted" x="2440" y="0"/>
+<item historyLabel="taoBao.jsp" index="0">
+<position info="not_deleted" x="75189" y="0"/>
 </item>
-<item historyLabel="index.css" index="0">
-<position/>
+<item historyLabel="style.css" index="1">
+<position info="not_deleted" x="15201" y="1"/>
 </item>
-<item historyLabel="SellerCenter.jsp" index="2">
-<position info="not_deleted" x="2396" y="0"/>
+<item historyLabel="taoBao.jsp" index="0">
+<position info="not_deleted" x="75217" y="0"/>
 </item>
-<item historyLabel="index.css" index="0">
-<position/>
+<item historyLabel="style.css" index="1">
+<position info="not_deleted" x="15187" y="19"/>
 </item>
-<item historyLabel="index.css" index="3">
-<position info="not_deleted" x="2469" y="50"/>
+<item historyLabel="taoBao.jsp" index="0">
+<position info="not_deleted" x="75217" y="0"/>
 </item>
-<item historyLabel="index.css" index="0">
-<position/>
+<item historyLabel="style.css" index="1">
+<position info="not_deleted" x="14358" y="0"/>
 </item>
-<item historyLabel="index.css" index="3">
-<position info="not_deleted" x="2257" y="195"/>
+<item historyLabel="taoBao.jsp" index="0">
+<position info="not_deleted" x="75220" y="0"/>
 </item>
-<item historyLabel="index.css" index="0">
-<position info="not_deleted" x="2549" y="0"/>
+<item historyLabel="style.css" index="1">
+<position info="not_deleted" x="17463" y="0"/>
 </item>
-<item historyLabel="SellerCenter.jsp" index="2">
-<position info="not_deleted" x="2385" y="0"/>
+<item historyLabel="taoBao.jsp" index="0">
+<position info="not_deleted" x="85072" y="0"/>
 </item>
-<item historyLabel="index.css" index="0">
-<position info="not_deleted" x="2567" y="0"/>
+<item historyLabel="NewFile.jsp" index="2">
+<position info="not_deleted" x="282337" y="0"/>
 </item>
-<item historyLabel="SellerCenter.jsp" index="2">
-<position/>
+<item historyLabel="taoBao.jsp" index="0">
+<position info="not_deleted" x="85065" y="0"/>
 </item>
-<item historyLabel="index.css" index="0">
-<position info="not_deleted" x="2620" y="0"/>
+<item historyLabel="NewFile.jsp" index="2">
+<position info="not_deleted" x="281595" y="25"/>
 </item>
-<item historyLabel="UsersLogin.jsp" index="1">
-<position info="not_deleted" x="2158" y="132"/>
+<item historyLabel="style.css" index="3">
+<position info="not_deleted" x="3300" y="18"/>
 </item>
-<item historyLabel="index.css" index="3">
-<position info="not_deleted" x="2257" y="195"/>
+<item historyLabel="taoBao.jsp" index="0">
+<position info="not_deleted" x="79008" y="0"/>
 </item>
-<item historyLabel="SellerCenter.jsp" index="2">
-<position info="not_deleted" x="2492" y="0"/>
+<item historyLabel="NewFile.jsp" index="2">
+<position info="not_deleted" x="281595" y="25"/>
 </item>
-<item historyLabel="Students_query_success.jsp" index="4">
-<position info="not_deleted" x="1036" y="0"/>
+<item historyLabel="taoBao.jsp" index="0">
+<position info="not_deleted" x="79008" y="0"/>
 </item>
-<item historyLabel="index.html" index="5">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="NewFile.jsp" index="2">
+<position info="not_deleted" x="282473" y="434"/>
 </item>
-<item active="true" historyLabel="index.html" index="5">
-<position info="not_deleted" x="7406" y="0"/>
+<item active="true" historyLabel="taoBao.jsp" index="0">
+<position info="not_deleted" x="79008" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -394,9 +397,6 @@
 <trimLayout>
 <trimArea IMemento.internal.id="16384">
 <trimItem IMemento.internal.id="topLeft"/>
-</trimArea>
-<trimArea IMemento.internal.id="131072">
-<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
 </trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
@@ -411,50 +411,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="fontawesome-webfont.eot" tooltip="TestShopping/WebContent/fonts/fontawesome-webfont.eot">
-<persistable path="/TestShopping/WebContent/fonts/fontawesome-webfont.eot"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="02.jpg" tooltip="TaoBao/WebContent/img/02.jpg">
+<persistable path="/TaoBao/WebContent/img/02.jpg"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="FontAwesome.otf" tooltip="TestShopping/WebContent/fonts/FontAwesome.otf">
-<persistable path="/TestShopping/WebContent/fonts/FontAwesome.otf"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="01.png" tooltip="TaoBao/WebContent/img/01.png">
+<persistable path="/TaoBao/WebContent/img/01.png"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="index.html" tooltip="TestShopping/WebContent/index.html">
-<persistable path="/TestShopping/WebContent/index.html"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="15.jpg" tooltip="TaoBao/WebContent/img/15.jpg">
+<persistable path="/TaoBao/WebContent/img/15.jpg"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="Students_query_success.jsp" tooltip="CollegeShopping/WebContent/jsp/students/Students_query_success.jsp">
-<persistable path="/CollegeShopping/WebContent/jsp/students/Students_query_success.jsp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="2.jpg" tooltip="TaoBao/WebContent/img/2.jpg">
+<persistable path="/TaoBao/WebContent/img/2.jpg"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" name="index.css" tooltip="Structs2HibernateStudent/WebContent/css/index.css">
-<persistable path="/Structs2HibernateStudent/WebContent/css/index.css"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="1.jpg" tooltip="TaoBao/WebContent/img/1.jpg">
+<persistable path="/TaoBao/WebContent/img/1.jpg"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="UsersLogin.jsp" tooltip="CollegeShopping/WebContent/jsp/users/UsersLogin.jsp">
-<persistable path="/CollegeShopping/WebContent/jsp/users/UsersLogin.jsp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="04.png" tooltip="TaoBao/WebContent/img/04.png">
+<persistable path="/TaoBao/WebContent/img/04.png"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="SellerCenterTree.jsp" tooltip="CollegeShopping/WebContent/SellerCenterTree.jsp">
-<persistable path="/CollegeShopping/WebContent/SellerCenterTree.jsp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="03.png" tooltip="TaoBao/WebContent/img/03.png">
+<persistable path="/TaoBao/WebContent/img/03.png"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" name="index.css" tooltip="CollegeShopping/WebContent/css/index.css">
-<persistable path="/CollegeShopping/WebContent/css/index.css"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="3.jpg" tooltip="TaoBao/WebContent/img/3.jpg">
+<persistable path="/TaoBao/WebContent/img/3.jpg"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="SellerCenter.jsp" tooltip="CollegeShopping/WebContent/jsp/users/SellerCenter.jsp">
-<persistable path="/CollegeShopping/WebContent/jsp/users/SellerCenter.jsp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="NewFile.jsp" tooltip="aaafjdj/WebContent/NewFile.jsp">
+<persistable path="/aaafjdj/WebContent/NewFile.jsp"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="buyerCenter.jsp" tooltip="CollegeShopping/WebContent/jsp/users/buyerCenter.jsp">
-<persistable path="/CollegeShopping/WebContent/jsp/users/buyerCenter.jsp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" name="style.css" tooltip="aaafjdj/WebContent/css/style.css">
+<persistable path="/aaafjdj/WebContent/css/style.css"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="tree.jsp" tooltip="Structs2HibernateStudent/WebContent/tree.jsp">
-<persistable path="/Structs2HibernateStudent/WebContent/tree.jsp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="index.html" tooltip="aaafjdj/WebContent/index.html">
+<persistable path="/aaafjdj/WebContent/index.html"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="tree.jsp" tooltip="CollegeShopping/WebContent/tree.jsp">
-<persistable path="/CollegeShopping/WebContent/tree.jsp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" name="style.css" tooltip="TaoBao/WebContent/css/style.css">
+<persistable path="/TaoBao/WebContent/css/style.css"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="buyerCenterTree.jsp" tooltip="CollegeShopping/WebContent/buyerCenterTree.jsp">
-<persistable path="/CollegeShopping/WebContent/buyerCenterTree.jsp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" name="reset.css" tooltip="TaoBao/WebContent/css/reset.css">
+<persistable path="/TaoBao/WebContent/css/reset.css"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="a.png" tooltip="Structs2HibernateStudent/WebContent/images/a.png">
-<persistable path="/Structs2HibernateStudent/WebContent/images/a.png"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" name="font-awesome.min.css" tooltip="TaoBao/WebContent/css/font-awesome.min.css">
+<persistable path="/TaoBao/WebContent/css/font-awesome.min.css"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="admin.png" tooltip="Structs2HibernateStudent/WebContent/images/admin.png">
-<persistable path="/Structs2HibernateStudent/WebContent/images/admin.png"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="taoBao.jsp" tooltip="TaoBao/WebContent/taoBao.jsp">
+<persistable path="/TaoBao/WebContent/taoBao.jsp"/>
 </file>
 </mruList>
 </workbench>
