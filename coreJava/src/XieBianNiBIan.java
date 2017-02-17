@@ -1,0 +1,24 @@
+import java.io.FileInputStream;
+
+public class XieBianNiBIan {
+
+	public static void  print(Object object)
+	{
+		System.out.println("Object");
+	}
+	
+	public static void print(Integer integer)
+	{
+		System.out.println("Integer");
+	}
+	
+	public static void print(Number number)
+	{
+		System.out.println("Number");
+	}
+	
+	public static void main(String[] args) {
+		print(new Integer(6));
+	}
+	
+}
