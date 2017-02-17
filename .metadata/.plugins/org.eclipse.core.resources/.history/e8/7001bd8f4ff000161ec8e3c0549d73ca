@@ -1,0 +1,21 @@
+import java.io.FileInputStream;
+
+
+public class XieBianNiBIan {
+
+	public  void  print(Object object)
+	{
+		
+	}
+	
+	public void print(Integer integer)
+	{
+		
+	}
+	
+	public void print(FileInputStream file)
+	{
+		
+	}
+	
+}

@@ -1,0 +1,11 @@
+
+public class InnerClass {
+
+}
+
+class E{
+	class F()
+	{
+		
+	}
+}

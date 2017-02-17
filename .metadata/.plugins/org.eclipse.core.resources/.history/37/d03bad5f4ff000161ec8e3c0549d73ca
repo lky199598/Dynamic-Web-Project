@@ -1,0 +1,16 @@
+
+public class XieBianNiBIan {
+
+	public  void  print(Object object)
+	{
+		
+	}
+	
+	public void print(Integer integer)
+	{
+		
+	}
+	
+	public void ptint(FileInputStream )
+	
+}

@@ -1,0 +1,27 @@
+import java.util.List;
+
+
+public class Test {
+	
+     public String sum(List<String> list)
+     {
+    	 return "aaa";
+     }
+     
+     public Integer sum(List<Integer> list)
+     {
+    	 return new Integer(8);
+     }
+     
+     public static void main(String[] args) {
+		
+	}
+}
+
+
+
+
+
+
+
+

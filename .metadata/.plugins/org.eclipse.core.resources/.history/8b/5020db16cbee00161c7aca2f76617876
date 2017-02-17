@@ -1,0 +1,31 @@
+import java.util.List;
+
+
+public class Test {
+	
+     public String sum(List<String> list)
+     {
+    	 return "aaa";
+     }
+     
+     public Integer sum(List<Integer> list)
+     {
+    	 return new Integer(8);
+     }
+     
+     public static void main(String[] args) {
+    	    String s1 = "Programming";
+    	    String s2 = "ming";
+    	    
+    	    String s3 = "Program" + "ming";
+    	    System.out.println(s1 == s3);//true
+	}
+}
+
+
+
+
+
+
+
+

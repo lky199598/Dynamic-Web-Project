@@ -1,0 +1,16 @@
+package FrameWork;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+
+public class TestAddNUll {
+	public static void main(String[] args)
+	{
+		ArrayList<String> list = new ArrayList<String>();
+		list.add(null);
+		
+		HashSet<String> hashSet = new HashSet<String>();
+		
+		
+	}
+}

@@ -4,6 +4,9 @@ public class Test1
 {
 	public static void main(String[] args)
 	{
+	   /* java.lang.Enum类实现了java.lang.Serializable
+		  和java.lang.Comparable两个接口
+		 */
 		EnumTest test = EnumTest.TUE;
 		// compareTo(E o)
 		switch (test.compareTo(EnumTest.MON)) // 比较此枚举与指定对象的顺序。

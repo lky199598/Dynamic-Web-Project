@@ -1,0 +1,16 @@
+public class InnerClass {
+
+}
+
+class Out{
+	private static class User
+	{
+		 int id;
+		
+	}
+	public static void print()
+	{
+		User u=new User();
+		
+	}
+}

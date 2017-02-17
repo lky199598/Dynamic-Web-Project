@@ -45,9 +45,10 @@ class DLogger implements ILogger {
 	}
 }
 
-class DynaProxyHello1 implements InvocationHandler {
+class  DynaProxyHello1  implements InvocationHandler{
 	// 目标对象
-		private Object target;
+	private Object target;
+		
 	// 调用对象
 	private Object ivoke;
 	
@@ -55,6 +56,7 @@ class DynaProxyHello1 implements InvocationHandler {
 	public Object bind(Object target, Object ivoke) {
 		this.target = target;
 		this.ivoke = ivoke;
+		
 		return Proxy.newProxyInstance(this.target.getClass().getClassLoader(),
 				this.target.getClass().getInterfaces(), this);
 	}
@@ -66,6 +68,7 @@ class DynaProxyHello1 implements InvocationHandler {
 		
 		// 反射得到操作者的实例
 		Class clazz = ivoke.getClass();
+		
 		// 反射得到操作者的Start方法
 		Method start = clazz.getDeclaredMethod("start",
 				new Class[] { Method.class });
@@ -78,8 +81,11 @@ class DynaProxyHello1 implements InvocationHandler {
 		//反射得到操作者的end方法
 		Method end = clazz.getDeclaredMethod("end",
 				new Class[] { Method.class });
+		
 		//反射执行end方法
 		end.invoke(ivoke, new Object[] { method });
+		
+		System.out.println("result: "+result);
 		return result;
 	}
 }

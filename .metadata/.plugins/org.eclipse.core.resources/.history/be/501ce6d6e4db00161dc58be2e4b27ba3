@@ -1,0 +1,14 @@
+public class InnerClass {
+
+}
+
+class Out{
+	private class Inner
+	{
+		
+	}
+	public static void print()
+	{
+		
+	}
+}

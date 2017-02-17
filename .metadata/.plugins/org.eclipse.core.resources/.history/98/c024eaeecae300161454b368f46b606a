@@ -1,0 +1,16 @@
+package FanXing;
+
+import java.util.ArrayList;
+import java.util.List;
+
+class Food{}
+
+class Fruit extends Food{}
+
+class Apple extends Fruit{}
+
+class RedApple extends Apple{}
+
+public class SuperExtends {
+   List<? extends Fruit> list1 = new ArrayList<>();
+}

@@ -3,6 +3,7 @@ package Enum;
 
 public enum EnumTest1
 {
+	  	  
     MON(1), TUE(2), WED(3), THU(4), FRI(5), SAT(6)
     {
         @Override
@@ -20,7 +21,6 @@ public enum EnumTest1
             return true;
         }
     };
- 
     
     private int value;
     
@@ -28,6 +28,7 @@ public enum EnumTest1
     {
         this.value = value;
     }
+    
  
     public int getValue()
     {
@@ -38,6 +39,7 @@ public enum EnumTest1
     {
         return false;
     }
+    
     
     public static void main(String[] args)
     {

@@ -1,0 +1,9 @@
+package FanXing;
+ class Food{}
+ class Fruit extends Food{}
+class Apple extends Fruit{}
+class RedApple extends Apple{}
+
+public class SuperExtends {
+
+}

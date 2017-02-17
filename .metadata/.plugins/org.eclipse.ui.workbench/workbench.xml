@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="75" version="2.0">
+<workbench progressCount="57" version="2.0">
 <workbenchAdvisor/>
 <window height="788" maximized="true" width="1298" x="16" y="130">
 <fastViewData fastViewLocation="1024"/>
@@ -14,7 +14,7 @@
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="135" y="22"/>
 <coolItem id="org.eclipse.jst.j2ee.J2eeMainActionSet" itemType="typeToolBarContribution" x="95" y="22"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="101" y="22"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="130" y="22"/>
 <coolItem id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet" itemType="typeToolBarContribution" x="38" y="22"/>
 <coolItem id="org.eclipse.wst.ws.explorer.explorer" itemType="typeToolBarContribution" x="38" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -27,7 +27,7 @@
 <coolItem id="org.eclipse.wst.css.core.csssource.source" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.PropertiesFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="org.eclipse.jst.jsp.core.jspsource.source" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jst.jsp.core.jspsource.source" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
@@ -39,44 +39,49 @@
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="3"/>
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
+<part id="3"/>
 <part id="4"/>
 <part id="5"/>
 <part id="6"/>
+<part id="7"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jst.jsp.core.jspsource.source" name="taoBao.jsp" partName="taoBao.jsp" path="F:/DynamicWebProject/TaoBao/WebContent/taoBao.jsp" title="taoBao.jsp" tooltip="TaoBao/WebContent/taoBao.jsp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TaoBao/WebContent/taoBao.jsp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="80961" selectionTopPixel="46035"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Client.java" partName="Client.java" path="F:/DynamicWebProject/Socket/src/Client.java" title="Client.java" tooltip="Socket/src/Client.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Socket/src/Client.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="916" selectionTopPixel="1122"/>
 </editor>
-<editor id="org.eclipse.wst.css.core.csssource.source" name="font-awesome.min.css" partName="font-awesome.min.css" path="F:/DynamicWebProject/TaoBao/WebContent/css/font-awesome.min.css" title="font-awesome.min.css" tooltip="TaoBao/WebContent/css/font-awesome.min.css" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TaoBao/WebContent/css/font-awesome.min.css"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Server.java" partName="Server.java" path="F:/DynamicWebProject/Socket/src/Server.java" title="Server.java" tooltip="Socket/src/Server.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Socket/src/Server.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="956" selectionTopPixel="918"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ServerThread.java" partName="ServerThread.java" path="F:/DynamicWebProject/Socket/src/ServerThread.java" title="ServerThread.java" tooltip="Socket/src/ServerThread.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Socket/src/ServerThread.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1056" selectionTopPixel="1700"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Test01.java" partName="Test01.java" path="F:/DynamicWebProject/Socket/src/Test01.java" title="Test01.java" tooltip="Socket/src/Test01.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Socket/src/Test01.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="276" selectionTopPixel="408"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Test02.java" partName="Test02.java" path="F:/DynamicWebProject/Socket/src/Test02.java" title="Test02.java" tooltip="Socket/src/Test02.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Socket/src/Test02.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="382" selectionTopPixel="408"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Test03.java" partName="Test03.java" path="F:/DynamicWebProject/Socket/src/Test03.java" title="Test03.java" tooltip="Socket/src/Test03.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Socket/src/Test03.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.wst.css.core.csssource.source" name="reset.css" partName="reset.css" path="F:/DynamicWebProject/TaoBao/WebContent/css/reset.css" title="reset.css" tooltip="TaoBao/WebContent/css/reset.css" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TaoBao/WebContent/css/reset.css"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="306" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UDPClient.java" partName="UDPClient.java" path="F:/DynamicWebProject/Socket/src/UDPClient.java" title="UDPClient.java" tooltip="Socket/src/UDPClient.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Socket/src/UDPClient.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="673" selectionTopPixel="1054"/>
 </editor>
-<editor id="org.eclipse.wst.css.core.csssource.source" name="style.css" partName="style.css" path="F:/DynamicWebProject/TaoBao/WebContent/css/style.css" title="style.css" tooltip="TaoBao/WebContent/css/style.css" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TaoBao/WebContent/css/style.css"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="17463" selectionTopPixel="32357"/>
-</editor>
-<editor id="org.eclipse.wst.html.core.htmlsource.source" name="index.html" partName="index.html" path="F:/DynamicWebProject/aaafjdj/WebContent/index.html" title="index.html" tooltip="aaafjdj/WebContent/index.html" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/aaafjdj/WebContent/index.html"/>
-<editorState selectionHorizontalPixel="0" selectionLength="257" selectionOffset="4811" selectionTopPixel="2904"/>
-</editor>
-<editor id="org.eclipse.wst.css.core.csssource.source" name="style.css" partName="style.css" path="F:/DynamicWebProject/aaafjdj/WebContent/css/style.css" title="style.css" tooltip="aaafjdj/WebContent/css/style.css" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/aaafjdj/WebContent/css/style.css"/>
-<editorState selectionHorizontalPixel="0" selectionLength="18" selectionOffset="3300" selectionTopPixel="5664"/>
-</editor>
-<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="NewFile.jsp" partName="NewFile.jsp" path="F:/DynamicWebProject/aaafjdj/WebContent/NewFile.jsp" title="NewFile.jsp" tooltip="aaafjdj/WebContent/NewFile.jsp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/aaafjdj/WebContent/NewFile.jsp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="434" selectionOffset="282473" selectionTopPixel="163779"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UDPServer.java" partName="UDPServer.java" path="F:/DynamicWebProject/Socket/src/UDPServer.java" title="UDPServer.java" tooltip="Socket/src/UDPServer.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Socket/src/UDPServer.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="196" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -107,8 +112,8 @@
 <viewState CommonNavigator.LINKING_ENABLED="0"/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.jst.jsp.core.jspsource.source" activePerspective="org.eclipse.jst.j2ee.J2EEPerspective">
-<perspective editorAreaTrimState="1" editorAreaVisible="1" fixed="0" version="0.016">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jst.j2ee.J2EEPerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jst.j2ee.internal.perspective.J2EEPerspective" id="org.eclipse.jst.j2ee.J2EEPerspective" label="Java EE"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
@@ -168,32 +173,25 @@
 <perspective_action id="org.eclipse.wst.web.ui.webDevPerspective"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
-<fastViewBars>
-<fastViewBar fastViewLocation="16384" id="topLeft" orientation="512" selectedTabId="org.eclipse.ui.navigator.ProjectExplorer" style="1">
-<fastViews>
-<view id="org.eclipse.ui.navigator.ProjectExplorer" ratio="0.3"/>
-</fastViews>
-</fastViewBar>
-<fastViewBar fastViewLocation="1024" id="bottomRight" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="1">
-<fastViews>
-<view id="org.eclipse.ui.views.AllMarkersView" ratio="0.3"/>
-<view id="org.eclipse.ui.views.PropertySheet" ratio="0.3"/>
-<view id="org.eclipse.wst.server.ui.ServersView" ratio="0.29903537"/>
-<view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" ratio="0.3"/>
-<view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" ratio="0.3"/>
-<view id="org.eclipse.ui.console.ConsoleView" ratio="0.29903537"/>
-</fastViews>
-</fastViewBar>
-</fastViewBars>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<view id="org.eclipse.ui.views.AllMarkersView"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
+<view id="org.eclipse.wst.server.ui.ServersView"/>
+<view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator"/>
+<view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<fastViewBars/>
 <layout>
 <mainWindow>
 <info folder="true" part="topLeft">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
+<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.PackagesView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
 </folder>
 </info>
 <info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="topLeft">
@@ -203,21 +201,28 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.22804429" ratioLeft="309" ratioRight="1046" relationship="2" relative="topLeft"/>
+<info part="org.eclipse.ui.editorss" ratio="0.15498155" ratioLeft="210" ratioRight="1145" relationship="2" relative="topLeft"/>
 <info folder="true" part="bottomRight" ratio="0.9531502" ratioLeft="590" ratioRight="29" relationship="4" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.AllMarkersView" label="LabelNotFound"/>
-<page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
-<page content="org.eclipse.wst.server.ui.ServersView" label="LabelNotFound"/>
-<page content="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" label="LabelNotFound"/>
-<page content="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" label="LabelNotFound"/>
-<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.AllMarkersView" label="Markers"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<page content="org.eclipse.wst.server.ui.ServersView" label="Servers"/>
+<page content="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" label="Data Source Explorer"/>
+<page content="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" label="Snippets"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+</presentation>
 </folder>
 </info>
 <info folder="true" part="topRight" ratio="0.7" ratioLeft="525" ratioRight="225" relationship="2" relative="org.eclipse.ui.editorss">
@@ -234,160 +239,59 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/TaoBao/WebContent/taoBao.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" path="/TaoBao/WebContent/css/style.css"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/aaafjdj/WebContent/NewFile.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" path="/aaafjdj/WebContent/css/style.css"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Socket/src/Client.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Socket/src/Server.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Socket/src/ServerThread.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Socket/src/Test01.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Socket/src/Test02.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Socket/src/Test03.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Socket/src/UDPClient.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Socket/src/UDPServer.java"/>
 </editors>
-<item historyLabel="taoBao.jsp" index="0">
-<position info="not_deleted" x="78378" y="0"/>
+<item historyLabel="Client.java" index="0">
+<position info="not_deleted" x="916" y="0"/>
 </item>
-<item historyLabel="style.css" index="1">
-<position info="not_deleted" x="14994" y="0"/>
+<item historyLabel="Server.java" index="1">
+<position info="not_deleted" x="1082" y="0"/>
 </item>
-<item historyLabel="taoBao.jsp" index="0">
-<position info="not_deleted" x="78378" y="0"/>
+<item historyLabel="ServerThread.java" index="2">
+<position info="not_deleted" x="1027" y="0"/>
 </item>
-<item historyLabel="style.css" index="1">
-<position info="not_deleted" x="17303" y="0"/>
+<item historyLabel="Test01.java" index="3">
+<position info="not_deleted" x="276" y="0"/>
 </item>
-<item historyLabel="taoBao.jsp" index="0">
-<position info="not_deleted" x="75161" y="0"/>
+<item historyLabel="Test02.java" index="4">
+<position info="not_deleted" x="382" y="0"/>
 </item>
-<item historyLabel="style.css" index="1">
-<position info="not_deleted" x="14315" y="0"/>
+<item historyLabel="Test03.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="taoBao.jsp" index="0">
-<position info="not_deleted" x="75181" y="0"/>
+<item historyLabel="UDPClient.java" index="6">
+<position info="not_deleted" x="708" y="0"/>
 </item>
-<item historyLabel="style.css" index="1">
-<position info="not_deleted" x="14339" y="0"/>
+<item historyLabel="UDPServer.java" index="7">
+<position info="not_deleted" x="1016" y="0"/>
 </item>
-<item historyLabel="taoBao.jsp" index="0">
-<position info="not_deleted" x="75253" y="0"/>
+<item historyLabel="ServerThread.java" index="2">
+<position info="not_deleted" x="1056" y="0"/>
 </item>
-<item historyLabel="style.css" index="1">
-<position info="not_deleted" x="14315" y="0"/>
+<item historyLabel="Server.java" index="1">
+<position info="not_deleted" x="956" y="0"/>
 </item>
-<item historyLabel="taoBao.jsp" index="0">
-<position info="not_deleted" x="78406" y="0"/>
+<item historyLabel="UDPClient.java" index="6">
+<position info="not_deleted" x="1088" y="0"/>
 </item>
-<item historyLabel="style.css" index="1">
-<position info="not_deleted" x="19094" y="0"/>
+<item historyLabel="UDPServer.java" index="7">
+<position info="not_deleted" x="379" y="0"/>
 </item>
-<item historyLabel="taoBao.jsp" index="0">
-<position info="not_deleted" x="78406" y="0"/>
+<item historyLabel="UDPClient.java" index="6">
+<position info="not_deleted" x="634" y="0"/>
 </item>
-<item historyLabel="style.css" index="1">
-<position info="not_deleted" x="17242" y="0"/>
+<item historyLabel="UDPServer.java" index="7">
+<position info="not_deleted" x="196" y="0"/>
 </item>
-<item historyLabel="taoBao.jsp" index="0">
-<position info="not_deleted" x="78534" y="0"/>
-</item>
-<item historyLabel="style.css" index="1">
-<position info="not_deleted" x="17242" y="0"/>
-</item>
-<item historyLabel="style.css" index="3">
-<position info="not_deleted" x="3300" y="18"/>
-</item>
-<item historyLabel="style.css" index="1">
-<position info="not_deleted" x="17463" y="0"/>
-</item>
-<item historyLabel="taoBao.jsp" index="0">
-<position info="not_deleted" x="75357" y="0"/>
-</item>
-<item historyLabel="style.css" index="1">
-<position info="not_deleted" x="15209" y="0"/>
-</item>
-<item historyLabel="taoBao.jsp" index="0">
-<position info="not_deleted" x="78413" y="0"/>
-</item>
-<item historyLabel="style.css" index="1">
-<position info="not_deleted" x="17394" y="0"/>
-</item>
-<item historyLabel="taoBao.jsp" index="0">
-<position info="not_deleted" x="78413" y="0"/>
-</item>
-<item historyLabel="style.css" index="1">
-<position info="not_deleted" x="17391" y="0"/>
-</item>
-<item historyLabel="taoBao.jsp" index="0">
-<position info="not_deleted" x="78357" y="0"/>
-</item>
-<item historyLabel="style.css" index="1">
-<position info="not_deleted" x="28573" y="0"/>
-</item>
-<item historyLabel="taoBao.jsp" index="0">
-<position info="not_deleted" x="78659" y="0"/>
-</item>
-<item historyLabel="style.css" index="1">
-<position info="not_deleted" x="17349" y="0"/>
-</item>
-<item historyLabel="taoBao.jsp" index="0">
-<position info="not_deleted" x="75316" y="0"/>
-</item>
-<item historyLabel="style.css" index="1">
-<position info="not_deleted" x="15162" y="0"/>
-</item>
-<item historyLabel="taoBao.jsp" index="0">
-<position info="not_deleted" x="75189" y="0"/>
-</item>
-<item historyLabel="style.css" index="1">
-<position info="not_deleted" x="15162" y="0"/>
-</item>
-<item historyLabel="taoBao.jsp" index="0">
-<position info="not_deleted" x="75189" y="0"/>
-</item>
-<item historyLabel="style.css" index="1">
-<position info="not_deleted" x="15201" y="1"/>
-</item>
-<item historyLabel="taoBao.jsp" index="0">
-<position info="not_deleted" x="75217" y="0"/>
-</item>
-<item historyLabel="style.css" index="1">
-<position info="not_deleted" x="15187" y="19"/>
-</item>
-<item historyLabel="taoBao.jsp" index="0">
-<position info="not_deleted" x="75217" y="0"/>
-</item>
-<item historyLabel="style.css" index="1">
-<position info="not_deleted" x="14358" y="0"/>
-</item>
-<item historyLabel="taoBao.jsp" index="0">
-<position info="not_deleted" x="75220" y="0"/>
-</item>
-<item historyLabel="style.css" index="1">
-<position info="not_deleted" x="17463" y="0"/>
-</item>
-<item historyLabel="taoBao.jsp" index="0">
-<position info="not_deleted" x="85072" y="0"/>
-</item>
-<item historyLabel="NewFile.jsp" index="2">
-<position info="not_deleted" x="282337" y="0"/>
-</item>
-<item historyLabel="taoBao.jsp" index="0">
-<position info="not_deleted" x="85065" y="0"/>
-</item>
-<item historyLabel="NewFile.jsp" index="2">
-<position info="not_deleted" x="281595" y="25"/>
-</item>
-<item historyLabel="style.css" index="3">
-<position info="not_deleted" x="3300" y="18"/>
-</item>
-<item historyLabel="taoBao.jsp" index="0">
-<position info="not_deleted" x="79008" y="0"/>
-</item>
-<item historyLabel="NewFile.jsp" index="2">
-<position info="not_deleted" x="281595" y="25"/>
-</item>
-<item historyLabel="taoBao.jsp" index="0">
-<position info="not_deleted" x="79008" y="0"/>
-</item>
-<item historyLabel="NewFile.jsp" index="2">
-<position info="not_deleted" x="282473" y="434"/>
-</item>
-<item active="true" historyLabel="taoBao.jsp" index="0">
-<position info="not_deleted" x="79008" y="0"/>
+<item active="true" historyLabel="UDPClient.java" index="6">
+<position info="not_deleted" x="634" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -395,9 +299,6 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="16384">
-<trimItem IMemento.internal.id="topLeft"/>
-</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 <trimItem IMemento.internal.id="org.eclipse.mylyn.tasks.ui.trim.container"/>
@@ -406,11 +307,46 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="bottomRight"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UDPServer.java" tooltip="Socket/src/UDPServer.java">
+<persistable path="/Socket/src/UDPServer.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UDPClient.java" tooltip="Socket/src/UDPClient.java">
+<persistable path="/Socket/src/UDPClient.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Test03.java" tooltip="Socket/src/Test03.java">
+<persistable path="/Socket/src/Test03.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Test02.java" tooltip="Socket/src/Test02.java">
+<persistable path="/Socket/src/Test02.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Test01.java" tooltip="Socket/src/Test01.java">
+<persistable path="/Socket/src/Test01.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ServerThread.java" tooltip="Socket/src/ServerThread.java">
+<persistable path="/Socket/src/ServerThread.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Server.java" tooltip="Socket/src/Server.java">
+<persistable path="/Socket/src/Server.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Client.java" tooltip="Socket/src/Client.java">
+<persistable path="/Socket/src/Client.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ExtendsTest.java" tooltip="coreJava/src/ExtendsTest.java">
+<persistable path="/coreJava/src/ExtendsTest.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Test.java" tooltip="coreJava/src/Test.java">
+<persistable path="/coreJava/src/Test.java"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="List.class" tooltip="java.util.List">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=coreJava/F:\/jdk-7u80-windows-x64\/JDK\/jre\/lib\/rt.jar&lt;java.util(List.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FanXing.java" tooltip="coreJava/src/FanXing.java">
+<persistable path="/coreJava/src/FanXing.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="02.jpg" tooltip="TaoBao/WebContent/img/02.jpg">
 <persistable path="/TaoBao/WebContent/img/02.jpg"/>
 </file>
@@ -419,42 +355,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="15.jpg" tooltip="TaoBao/WebContent/img/15.jpg">
 <persistable path="/TaoBao/WebContent/img/15.jpg"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="2.jpg" tooltip="TaoBao/WebContent/img/2.jpg">
-<persistable path="/TaoBao/WebContent/img/2.jpg"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="1.jpg" tooltip="TaoBao/WebContent/img/1.jpg">
-<persistable path="/TaoBao/WebContent/img/1.jpg"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="04.png" tooltip="TaoBao/WebContent/img/04.png">
-<persistable path="/TaoBao/WebContent/img/04.png"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="03.png" tooltip="TaoBao/WebContent/img/03.png">
-<persistable path="/TaoBao/WebContent/img/03.png"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="3.jpg" tooltip="TaoBao/WebContent/img/3.jpg">
-<persistable path="/TaoBao/WebContent/img/3.jpg"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="NewFile.jsp" tooltip="aaafjdj/WebContent/NewFile.jsp">
-<persistable path="/aaafjdj/WebContent/NewFile.jsp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" name="style.css" tooltip="aaafjdj/WebContent/css/style.css">
-<persistable path="/aaafjdj/WebContent/css/style.css"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="index.html" tooltip="aaafjdj/WebContent/index.html">
-<persistable path="/aaafjdj/WebContent/index.html"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" name="style.css" tooltip="TaoBao/WebContent/css/style.css">
-<persistable path="/TaoBao/WebContent/css/style.css"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" name="reset.css" tooltip="TaoBao/WebContent/css/reset.css">
-<persistable path="/TaoBao/WebContent/css/reset.css"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" name="font-awesome.min.css" tooltip="TaoBao/WebContent/css/font-awesome.min.css">
-<persistable path="/TaoBao/WebContent/css/font-awesome.min.css"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" name="taoBao.jsp" tooltip="TaoBao/WebContent/taoBao.jsp">
-<persistable path="/TaoBao/WebContent/taoBao.jsp"/>
 </file>
 </mruList>
 </workbench>
